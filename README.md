@@ -8,9 +8,9 @@ In this project we identify all the ion channels and transporters participating 
 **Project walk-through**
 
 - Define the datasets in the projects. The dataset includes a family of ion-channels (uniprot ID and functions), CVD’s in MeSH and ICD11 codes, terminology and descriptors of oxidative stress (self generated). Drug Bank (API for drugs and drug target exploration)
-- Get familiar with ion-channel classification.
-- Learn to extract Drug information from DrugBank API  and understand cardiovascular drug and drug-targets classification.
-- Get familiar with a curated list of oxidative stress categories and associated molecules.
+- Get familiar with [ion-channel classification](https://caseolap.github.io/IonChannel/plots/Ion-channels.html).
+- Learn to extract Drug information from DrugBank API  and understand [Cardiovascular drug and drug-targets classification](https://caseolap.github.io/IonChannel/plots/cvd-drugs.html).
+- Get familiar with a curated list of [Oxidative Stress categories and associated molecules](https://caseolap.github.io/IonChannel/plots/oxidative-stress.html).
 - Get Familiar with MeSH tree and ICD codes and CVD classification.
 - Compare the list of ion-channel proteins and look at how many of them are CVD drug targets.
 - Develop the ranking (caseOLAP) of ion-channel proteins over Oxidative stress categories. Develop the ranking (caseOLAP) of ion-channel proteins over CVD categories.
