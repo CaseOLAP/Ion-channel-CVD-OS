@@ -1,0 +1,433 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title>CVD drug categories</title>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="googlebot" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <script
+    type="text/javascript"
+    src="//d3js.org/d3.v3.js"
+    
+  ></script>
+
+    <link rel="stylesheet" type="text/css" href="/css/result-light.css">
+
+
+  <style id="compiled-css" type="text/css">
+      .node circle {
+    fill: steelblue;
+    stroke: steelblue;
+    stroke-width: 1.5px;
+}
+.node {
+    font: 11px sans-serif;
+   font-weight: bold;
+}
+.link_continuous {
+    fill: none;
+    stroke: #bbb;
+    stroke-width: 1.5px;
+}
+
+    /* EOS */
+  </style>
+
+  <script id="insert"></script>
+
+
+</head>
+<body>
+    
+
+    <script type="text/javascript">//<![CDATA[
+
+
+var width = 1000,
+    height = 2200;
+
+var cluster = d3.layout.cluster()
+    .size([height, width - 400]);
+
+var diagonal = d3.svg.diagonal()
+    .projection(function (d) {
+    return [d.y, d.x];
+});
+
+var svg = d3.select("body").append("svg")
+    .attr("width", width)
+    .attr("height", height)
+    .append("g")
+    .attr("transform", "translate(115,0)");
+
+    var root = getData(),
+        nodes = cluster.nodes(root),
+        links = cluster.links(nodes);
+
+    var link = svg.selectAll(".link")
+        .data(links)
+       .enter()
+        .append("path")
+        .attr("class", "link_continuous")
+        .attr("d", diagonal);
+
+    var node = svg.selectAll(".node")
+        .data(nodes)
+       .enter()
+        .append("g")
+        .attr("class", "node")
+        .attr("transform", function (d) {
+        return "translate(" + d.y + "," + d.x + ")";
+    })
+
+    node.append("circle")
+        .attr("r", 4.5);
+
+    node.append("text")
+        .attr("dx", function (d) { return d.children ? -8 : 8; })
+        .attr("dy", 3)
+        .style("text-anchor", function (d) { return d.children ? "end" : "start"; })
+        .text(function (d) { return d.name; });
+
+d3.select(self.frameElement).style("height", height + "px");
+
+
+function getData() {
+    return {
+        "name": "Drug Category",
+            "children": [
+                      {
+                        "name":"Anticoagulants",
+                        "children": [
+                                    { "name": "heparin"},
+                                    {"name": "warfarin"},
+                                    ]
+                      },
+                      {
+                        "name":"Thrombolytics",
+                        "children": [
+                                    { "name": "streptokinase"},
+                                    { "name": "urokinase"},
+                                    { "name": "tpa"},
+                                    { "name": "apsac"},  
+                                    { "name": "dabigatran"}, 
+                                    { "name": "rivaroxaban"},
+                                    { "name": "apixaban"},
+                                    { "name": "edoxaban"}
+                                    ]
+                      }, 
+                      
+                      {
+                        "name":"Antiplatelets",
+                        "children": [
+                                    { "name": "clopidogrel"},
+                                    { "name": "ticlopidine"},
+                                    { "name": "abciximab"},
+                                    { "name": "cangrelor"},  
+                                    { "name": "prasugrel"}, 
+                                    { "name": "ticagrelor"},
+                                    { "name": "aspirin"},
+                                    { "name": "triflusal"},
+                                    { "name": "cilostazol"},
+                                    {"name": "vorapaxar"},
+                                    {"name": "eptifibatide"},
+                                    {"name": "tirofiban"},
+                                    {"name": "dipyridamole"},
+                                    ]
+                      },
+                      
+                      {
+                        "name":"HMG-CoA Reductase inhibitors (Statins)",
+                        "children": [
+                                    { "name": "simvastatin"},
+                                    { "name": "lovastatin"},
+                                    { "name": "pravastatin"},
+                                    { "name": "atorvastatin"},  
+                                    { "name": "fluvastatin"}, 
+                                    { "name": "rosuvastatin"},
+                                    ]
+                      },
+                      
+                      {
+                        "name":"Fibrates",
+                        "children": [
+                                    { "name": "gemfibrozil"},
+                                    { "name": "clofibrate"},
+                                    { "name": "bezafibrate"},
+                                    { "name": "fenofibrate"},  
+                                    { "name": "ciprofibrate"}, 
+                                    ]
+                      },
+                      
+                      {
+                        "name":"Bile Acid Resins",
+                        "children": [
+                                    { "name": "cholestyramine"},
+                                    { "name": "colestipol"},
+                                    { "name": "colesevelam"},
+                                    ]
+                      },
+                      
+                      {
+                        "name":"Cholesteron Absorption Blocker",
+                        "children": [
+                                    { "name": "ezetimibe"},
+                                    ]
+                      },
+                      
+                      {
+                        "name":"Insulin",
+                        "children": [
+                                    { "name": "Insulin aspart (NovoLog)"},
+                                    { "name": "Insulin glulisine (Apidra)"},
+                                    { "name": "Insulin lispro (Humalog)"},
+                                    { "name": "Insulin regular (Humulin R, Novolin R)"},
+                                    { "name": "NPH, Neutral protamine Hagedorn"},
+                                    { "name": "Insulin glargine (Lantus/Toujeo)"},
+                                    { "name": "Insulin detemir (Levemir)"},
+                                    ]
+                      },
+                      
+                      {
+                        "name":"Sulfonylureas",
+                        "children": [
+                                    { "name": "Tolbutamide (orinase)"},
+                                    { "name": "Chlorpropamide (diabenese)"},
+                                    { "name": "Glyburide (glynase)"},
+                                    { "name": "Glipizide (glucotrol)"},
+                                    ]
+                      },
+                      
+                      {
+                        "name":"Metformin",
+                        "children": [
+                                    { "name": "Metformin"},
+                                    ]
+                      },
+                      
+                      {
+                        "name":"Thiazolidinediones",
+                        "children": [
+                                    { "name": "Pioglitazone (Actos)"},
+                                    { "name": "Rosiglitazone (Avandia)"},
+                                    { "name": "Lobeglitazone"},
+                                    ]
+                      },
+                      
+                      {
+                        "name":"Alpha-glucosidase Inhibitors",
+                        "children": [
+                                    { "name": "Acarbose"},
+                                    { "name": "Miglitol"},
+                                    ]
+                      },
+                      
+                      {
+                        "name":"Glucagon-like peptide-1 blockers",
+                        "children": [
+                                    { "name": "Exenatide"},
+                                    { "name": "Sitagliptin"},
+                                    { "name": "Canagliflozin"},
+                                    ]
+                      },
+                      {
+                        "name":"Beta Blockers",
+                        "children": [
+                                    { "name": "propranolol"},
+                                    { "name": "bucindolol"},
+                                    { "name": "carvedilol"},
+                                    { "name": "carteolol"},
+                                    { "name": "labetalol"},
+                                    { "name": "oxprenolol"},
+                                    { "name": "penbutolol"},
+                                    { "name": "pindolol"},
+                                    { "name": "sotalol"},
+                                    { "name": "timolol"},
+                                    { "name": "acebutolol"},
+                                    { "name": "atenolol"},
+                                    { "name": "betaxolol"},
+                                    { "name": "bisoprolol"},
+                                    { "name": "celiprolol"},
+                                    { "name": "metoprolol"},
+                                    { "name": "nebivolol"},
+                                    { "name": "esmolol"},
+                                    ]
+                      },
+                      
+                      {
+                        "name":"Diuretics",
+                        "children": [
+                                    { "name": "furosemide"},
+                                    { "name": "torsemide"},
+                                    { "name": "bumetanide"},
+                                    { "name": "ethacrynic acid"},
+                                    { "name": "metolazone"},
+                                    { "name": "eplerenone"},
+                                    { "name": "spironolactone"},
+                                    { "name": "canrenone"},
+                                    { "name": "triamterene"},
+                                    { "name": "amiloride"},
+                                    { "name": "amlodipine"},
+                                    { "name": "verapamil"},
+                                    { "name": "felodipine"},
+                                    { "name": "isradipine"},
+                                    { "name": "nicardipine"},
+                                    ]
+                      },
+                      
+                      
+                      {
+                        "name":"Calcium Antagonist",
+                        "children": [
+                                    { "name": "nifedipine"},
+                                    { "name": "diltiazem"},
+                                    { "name": "nisoldipine"},
+                                    ]
+                       },
+                      
+                      
+                       {
+                        "name":"ACE Inhibitors",
+                        "children": [
+                                    { "name": "captopril"},
+                                    { "name": "lisinopril"},
+                                    { "name": "enalapril"},
+                                    { "name": "benazepril"},
+                                    { "name": "fosinopril"},
+                                    { "name": "ramipril"},
+                                    { "name": "quinapril"},
+                                    { "name": "perindopril"},
+                                    ]
+                       },
+                      
+                      {
+                        "name":"Inotropes",
+                        "children": [
+                                    { "name": "digoxin"},
+                                    { "name": "amiodarone"},
+                                    { "name": "berberine"},
+                                    { "name": "dopamine"},
+                                    { "name": "dobutamine"},
+                                    { "name": "dopexamine"},
+                                    { "name": "epinephrine"},
+                                    { "name": "isoprenaline"},
+                                    { "name": "norepinephrine"},
+                                    ]
+                       },
+                      
+                      {
+                        "name":"Phosphodiesterase Inhbitors",
+                        "children": [
+                                    { "name": "enoximone"},
+                                    { "name": "milrinone"},
+                                    { "name": "amrinone"},
+                                    { "name": "theophylline"},
+                                    ]
+                       },
+                      
+                      {
+                        "name":"Vasodilators",
+                        "children": [
+                                    { "name": "nitroglycerin"},
+                                    { "name": "isosorbide dinitrate"},
+                                    { "name": "hydralazine"},
+                                    { "name": "nitric oxide"},
+                                    { "name": "sildenafil"},
+                                    { "name": "tadalafil"},
+                                    { "name": "bosentan"},
+                                    { "name": "minoxidil"},
+                                    { "name": "nitroprusside"},
+                                    ]
+                       },
+                      
+                      
+                      {
+                        "name":"Angiotensin II Antagonists",
+                        "children": [
+                                    { "name": "losartan"},
+                                    { "name": "valsartan"},
+                                    { "name": "candesartan"},
+                                    { "name": "telmisartan"},
+                                    { "name": "fimasartan"},
+                                    { "name": "olmesartan"},
+                                    { "name": "irbesartan"},
+                                    ]
+                       },
+                    
+                      {
+                        "name":"Vasopressin Antagonists",
+                        "children": [
+                                    { "name": "conivaptan"},
+                                    { "name": "relcovaptan"},
+                                    { "name": "nelivaptan"},
+                                    { "name": "lixivaptan"},
+                                    { "name": "tolvaptan"},
+                                    ]
+                       },   
+                      
+                      
+                      {
+                        "name":"Na Channel Blockers",
+                        "children": [
+                                    { "name": "quinidine"},
+                                    { "name": "ajmaline"},
+                                    { "name": "procainamide"},
+                                    { "name": "disopyramide"},
+                                    { "name": "lidocaine"},
+                                    { "name": "phenytoin"},
+                                    { "name": "mexiletine"},
+                                    { "name": "tocainide"},
+                                    { "name": "encainide"},
+                                    { "name": "flecainide"},
+                                    { "name": "propafenone"},
+                                    { "name": "moricizine"},
+                                    { "name": "amiodarone"},
+                                    { "name": "sotalol"},
+                                    { "name": "ibutilide"},
+                                    { "name": "dofetilide"},
+                                    { "name": "dronedarone"},
+                                    { "name": "vernakalant"},
+                                    ]
+                       },
+                       
+                       
+                       {
+                        "name":"Ca Channel Blockers",
+                        "children": [
+                                    { "name": "verapamil"},
+                                    { "name": "diltiazem"},
+                                    { "name": "adenosine"},
+                                    { "name": "digoxin"},
+                                    { "name": "magnesium sulfate"},
+                                    { "name": "atropine"},
+                                    ]
+                       },
+                      
+                          ]
+             };
+                      } 
+
+
+  //]]></script>
+
+  <script>
+    // tell the embed parent frame the height of the content
+    if (window.parent && window.parent.parent){
+      window.parent.parent.postMessage(["resultsFrame", {
+        height: document.body.getBoundingClientRect().height,
+        slug: "y83dmp2a"
+      }], "*")
+    }
+
+    // always overwrite window.name, in case users try to set it manually
+    window.name = "result"
+  </script>
+
+
+</body>
+</html>

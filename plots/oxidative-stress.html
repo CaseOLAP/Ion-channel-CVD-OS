@@ -1,0 +1,333 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title>Oxidative-Stress-Categories</title>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="googlebot" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <script
+    type="text/javascript"
+    src="//d3js.org/d3.v3.js"
+    
+  ></script>
+
+    <link rel="stylesheet" type="text/css" href="/css/result-light.css">
+
+
+  <style id="compiled-css" type="text/css">
+      .node circle {
+    fill: steelblue;
+    stroke: steelblue;
+    stroke-width: 1.5px;
+}
+.node {
+    font: 11px sans-serif;
+   font-weight: bold;
+}
+.link_continuous {
+    fill: none;
+    stroke: #bbb;
+    stroke-width: 1.5px;
+}
+
+    /* EOS */
+  </style>
+
+  <script id="insert"></script>
+
+
+</head>
+<body>
+    
+
+    <script type="text/javascript">//<![CDATA[
+
+
+var width = 1000,
+    height = 1500;
+
+var cluster = d3.layout.cluster()
+    .size([height, width - 400]);
+
+var diagonal = d3.svg.diagonal()
+    .projection(function (d) {
+    return [d.y, d.x];
+});
+
+var svg = d3.select("body").append("svg")
+    .attr("width", width)
+    .attr("height", height)
+    .append("g")
+    .attr("transform", "translate(115,0)");
+
+    var root = getData(),
+        nodes = cluster.nodes(root),
+        links = cluster.links(nodes);
+
+    var link = svg.selectAll(".link")
+        .data(links)
+       .enter()
+        .append("path")
+        .attr("class", "link_continuous")
+        .attr("d", diagonal);
+
+    var node = svg.selectAll(".node")
+        .data(nodes)
+       .enter()
+        .append("g")
+        .attr("class", "node")
+        .attr("transform", function (d) {
+        return "translate(" + d.y + "," + d.x + ")";
+    })
+
+    node.append("circle")
+        .attr("r", 4.5);
+
+    node.append("text")
+        .attr("dx", function (d) { return d.children ? -8 : 8; })
+        .attr("dy", 3)
+        .style("text-anchor", function (d) { return d.children ? "end" : "start"; })
+        .text(function (d) { return d.name; });
+
+d3.select(self.frameElement).style("height", height + "px");
+
+
+function getData() {
+    return {
+        "name": "Oxydative Stress",
+            "children": [
+                        // Initiation -----------------------------------------
+                        {
+                        "name":"Initiation of Oxidative Stress",
+                        "children": [
+                                    // ROS--------------------------
+                                    {
+                                    "name": "Reactive Oxygen Species (ROS)",
+                                    "children": [
+                                                {"name": "Superoxides"
+                                             }, {"name": "Hydrogen Peroxide"
+                                             }, {"name": "Hydroxyl Radical"
+                                             }, {"name": "Singlet Oxygen"
+                                             }, {"name": "Peroxides"
+                                             }, {"name": "Epoxy Compounds"
+                                            }
+                                                ]       
+                                    },
+                                    // RON -------------------------------
+                                    {
+                                    "name": "Reactive Nitrogen Species (RON)",
+                                        "children": [
+                                                    {"name": "Nitric Oxide"
+                                                 }, {"name": "Nitrogen Dioxide"
+                                                 }, {"name": "Peroxynitrous Acid"}
+                                                    ]
+       
+                                    },
+                                    // Lipid peroxide radicals---------------------
+                                    {
+                                    "name": "Lipid peroxide radicals",
+                                        "children": [
+                                                    {"name": "Lipid Peroxidation"
+                                                 }, {"name": "Lipid Peroxides"
+                                                 }, {"name": "Fatty Acids, Unsaturated"
+                                                 }, {"name": "Superoxides"}
+                                                    ]
+       
+                                    },
+                                    //Reactive Aldehydes-----------------
+                                    {
+                                    "name": "Reactive Aldehydes",
+                                        "children": [
+                                                    {"name": "Aldehydes"
+                                                 }, {"name": "Malondialdehyde"
+                                                 }, {"name": "Lipid Peroxides"
+                                                 }, {"name": "Aldehydes"}
+                                                    ]
+       
+                                    },
+                                    //-------------------------
+                                  
+                                  ]
+         
+                      },
+        //regulation ----------------------------
+                      {
+                        "name":"Regulation of Oxidative Stress",
+                        "children": [
+                                    //Redox Metabolites-------------------------
+                                    {
+                                    "name": "Redox Metabolites",
+                                    "children": [
+                                                {"name": "Cysteine"
+                                             }, {"name": "Homocysteine"
+                                             }, {"name": "Glutathione"
+                                             }, {"name":"NAD"
+                                             }, {"name": "NADP"
+                                             }, {"name":"Flavin-Adenine Dinucleotide"
+                                             }, {"name": "Cystine"
+                                             }, {"name": "Glutathione Disulfide"
+                                             }, {"name": "Quinones"
+                                             }, {"name": "Disulfides"
+                                            }
+                                                ]       
+                                    },
+                                    //Antioxidant Enzymes------------------------------
+                                    {
+                                    "name": "Antioxidant Enzymes",
+                                        "children": [
+                                                    {"name": "NF-E2-Related Factor 2"
+                                                 }, {"name": "MafK Transcription Factor"
+                                                 }, {"name": "Glutamate-Cysteine Ligase"
+                                                 }, {"name": "NAD(P)H Dehydrogenase (Quinone)"
+                                                 }, {"name": "Glutathione Reductase"
+                                                 }, {"name": "Catalase"
+                                                 }, {"name": "Glutathione S-Transferase pi"
+                                                 }, {"name": "Glutathione Transferase"
+                                                 }, {"name": "Glutathione Peroxidase"
+                                                 }, {"name": "Superoxide Dismutase"
+                                                 }, {"name": "Methionine Sulfoxide Reductases"
+                                                 }, {"name": "Methionine Sulfoxide Reductases"
+                                                 }, {"name": "Oxidoreductases"
+                                                 }, {"name": "Thioredoxins"}
+                                                    ]
+       
+                                  },
+                                  //Redox Regulating Proteins----------------------------------
+                                  {
+                                    "name": "Redox Regulating Proteins",
+                                        "children": [
+                                                    {"name": "Thioredoxins"
+                                                 }, {"name": "Ribonucleoprotein, U5 Small Nuclear"
+                                                 }, {"name": "Nuclear Proteins"
+                                                 }, {"name": "Cell Cycle Proteins"
+                                                 }, {"name": "Thioredoxin Reductase 1"
+                                                 }, {"name": "Thioredoxin Reductase 2"
+                                                 }, {"name": "Thioredoxin-Disulfide Reductase"
+                                                 }, {"name": "Glutathione Reductase"
+                                                 }, {"name": "Carrier Proteins"
+                                                 }, {"name": "Membrane Proteins"
+                                                 }, {"name": "Thioredoxins"
+                                                 }, {"name": "Membrane Proteins"
+                                                 }, {"name": "Thioredoxins"
+                                                 }, {"name": "Seminal Plasma Proteins"
+                                                 }, {"name": "Protein Disulfide Reductase (Glutathione)"
+                                                 }, {"name": "Antigens, Neoplasm"
+                                                 }, {"name": "Membrane Glycoproteins"
+                                                 }, {"name": "Peroxiredoxins"
+                                                 }, {"name": "Peroxiredoxin III"
+                                                 }, {"name": "Peroxiredoxin IV"
+                                                 }, {"name": "Oxidoreductases"
+                                                 }, {"name": "Oxidoreductases Acting on Sulfur Group Donors"
+                                                 }, {"name": "Glutaredoxins"
+                                                 }, {"name": "Carrier Proteins"
+                                                 }, {"name": "Protein Disulfide-Isomerases"
+                                                 }, {"name": "Procollagen-Proline Dioxygenase"
+                                                 }, {"name": "Protein Disulfide-Isomerases"
+                                                 }, {"name": "Selenoprotein W"
+                                                 }, {"name": "Selenoproteins"
+                                                 }, {"name": "Methionine Sulfoxide Reductases"
+                                                 }, {"name": "DNA-Binding Proteins"
+                                                 }, {"name": "Oxidoreductases"}
+                                                    ]
+       
+                                  },
+                                  //Antioxidants--------------------------------
+                                  {
+                                    "name": "Antioxidants",
+                                        "children": [
+                                                    {"name": "Vitamin E"
+                                                 }, {"name": "Tocopherols"
+                                                 }, {"name": "Tocotrienols"
+                                                 }, {"name": "Vitamin A"
+                                                 }, {"name": "Ascorbic Acid"
+                                                 }, {"name": "Selenium"
+                                                 }, {"name": "Carotenoids"
+                                                 }, {"name": "Beta Carotene"
+                                                 }, {"name": "Lutein"
+                                                 }, {"name": "Manganese"
+                                                 }, {"name": "Melatonin"
+                                                 }, {"name": "Zeaxanthins"
+                                                 }, {"name": "Lycopene"}
+                                                    ]
+       
+                                  },
+                                  ]
+         
+                         },
+        
+        
+        
+        
+        //Outcomes ----------------------------------
+        
+        {
+                        "name":"Outcomes of Oxidative Stress",
+                        "children": [
+                                  //Protein Oxidation (O-PTMs)-------------------------
+                                    {
+                                    "name": "Protein Oxidation (O-PTMs)",
+                                    "children": [
+                                                {"name": "Protein Carbonylation"},
+                                                {"name": "Hydroxylation"},
+                                                ]       
+                                    },
+                                    //Lipid Peroxidation Products----------------------
+                                    {
+                                    "name": "Lipid Peroxidation Products",
+                                        "children": [
+                                                    {"name": "Malondialdehyde"},
+                                                    {"name": "Aldehydes"},
+                                                    {"name": "Malondialdehyde"}
+                                                    ]
+       
+                                  },
+                                  //Oxidative DNA Damage-------------------------
+                                    {
+                                    "name": "Oxidative DNA Damage",
+                                    "children": [
+                                                {"name": "Deoxyguanosine"}
+                                                ]       
+                                    },
+                                    //Nitrative DNA Damage----------------------
+                                    {
+                                    "name": "Nitrative DNA Damage",
+                                        "children": [
+                                                    {"name": "Guanine"
+                                                 }]
+       
+                                    }
+                                    ]
+         
+        },
+        
+        //-----------------------------
+        
+        
+        ]
+    };
+}
+
+
+  //]]></script>
+
+  <script>
+    // tell the embed parent frame the height of the content
+    if (window.parent && window.parent.parent){
+      window.parent.parent.postMessage(["resultsFrame", {
+        height: document.body.getBoundingClientRect().height,
+        slug: "1Le90y7g"
+      }], "*")
+    }
+
+    // always overwrite window.name, in case users try to set it manually
+    window.name = "result"
+  </script>
+
+
+</body>
+</html>
