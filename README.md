@@ -27,7 +27,7 @@ In this project we identify all the ion channels and transporters participating 
 
 **Workflow**
 
-![img](plots/OS-Workflow.png)
+![img](plots/wf.png)
 
 
 
