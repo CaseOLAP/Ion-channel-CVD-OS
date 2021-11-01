@@ -25,6 +25,11 @@ In this project we identify all the ion channels and transporters participating 
 **Scientific goals**: The students will explore knowledge graphs for oxidative stress, ion-channel, drug and CVD associations with a focus on oxidative stress categories (e.g., Initiation, Regulation and Outcome) and underlying molecular mechanisms involved in ion-channels.
 
 
+***Workflow***
+
+
+
+
 
 
 
