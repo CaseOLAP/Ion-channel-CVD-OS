@@ -1,0 +1,588 @@
+id,value
+Cardiovascular system (C),C
+Cardiovascular system (C);Cardiac therapy (C01),C01
+Cardiovascular system (C);Cardiac therapy (C01);Cardiac glycosides (C01A),C01A
+Cardiovascular system (C);Cardiac therapy (C01);Cardiac glycosides (C01A);Digitalis glycosides (C01AA),C01AA
+Cardiovascular system (C);Cardiac therapy (C01);Cardiac glycosides (C01A);Digitalis glycosides (C01AA);Acetyldigitoxin (C01AA01),C01AA01
+Cardiovascular system (C);Cardiac therapy (C01);Cardiac glycosides (C01A);Digitalis glycosides (C01AA);Digitoxin (C01AA04),C01AA04
+Cardiovascular system (C);Cardiac therapy (C01);Cardiac glycosides (C01A);Digitalis glycosides (C01AA);Digoxin (C01AA05),C01AA05
+Cardiovascular system (C);Cardiac therapy (C01);Cardiac glycosides (C01A);Digitalis glycosides (C01AA);Deslanoside (C01AA07),C01AA07
+Cardiovascular system (C);Cardiac therapy (C01);Cardiac glycosides (C01A);Strophanthus glycosides (C01AC),C01AC
+Cardiovascular system (C);Cardiac therapy (C01);Cardiac glycosides (C01A);Strophanthus glycosides (C01AC);G-strophanthin (C01AC01),C01AC01
+"Cardiovascular system (C);Cardiac therapy (C01);Antiarrhythmics, class i and iii (C01B)",C01B
+"Cardiovascular system (C);Cardiac therapy (C01);Antiarrhythmics, class i and iii (C01B);Antiarrhythmics, class ia (C01BA)",C01BA
+"Cardiovascular system (C);Cardiac therapy (C01);Antiarrhythmics, class i and iii (C01B);Antiarrhythmics, class ia (C01BA);Quinidine (C01BA01)",C01BA01
+"Cardiovascular system (C);Cardiac therapy (C01);Antiarrhythmics, class i and iii (C01B);Antiarrhythmics, class ia (C01BA);Procainamide (C01BA02)",C01BA02
+"Cardiovascular system (C);Cardiac therapy (C01);Antiarrhythmics, class i and iii (C01B);Antiarrhythmics, class ia (C01BA);Disopyramide (C01BA03)",C01BA03
+"Cardiovascular system (C);Cardiac therapy (C01);Antiarrhythmics, class i and iii (C01B);Antiarrhythmics, class ia (C01BA);Sparteine (C01BA04)",C01BA04
+"Cardiovascular system (C);Cardiac therapy (C01);Antiarrhythmics, class i and iii (C01B);Antiarrhythmics, class ia (C01BA);Ajmaline (C01BA05)",C01BA05
+"Cardiovascular system (C);Cardiac therapy (C01);Antiarrhythmics, class i and iii (C01B);Antiarrhythmics, class ia (C01BA);Quinidine, combinations excl. psycholeptics (C01BA51)",C01BA51
+"Cardiovascular system (C);Cardiac therapy (C01);Antiarrhythmics, class i and iii (C01B);Antiarrhythmics, class ia (C01BA);Quinidine, combinations with psycholeptics (C01BA71)",C01BA71
+"Cardiovascular system (C);Cardiac therapy (C01);Antiarrhythmics, class i and iii (C01B);Antiarrhythmics, class ib (C01BB)",C01BB
+"Cardiovascular system (C);Cardiac therapy (C01);Antiarrhythmics, class i and iii (C01B);Antiarrhythmics, class ib (C01BB);Lidocaine (C01BB01)",C01BB01
+"Cardiovascular system (C);Cardiac therapy (C01);Antiarrhythmics, class i and iii (C01B);Antiarrhythmics, class ib (C01BB);Mexiletine (C01BB02)",C01BB02
+"Cardiovascular system (C);Cardiac therapy (C01);Antiarrhythmics, class i and iii (C01B);Antiarrhythmics, class ib (C01BB);Tocainide (C01BB03)",C01BB03
+"Cardiovascular system (C);Cardiac therapy (C01);Antiarrhythmics, class i and iii (C01B);Antiarrhythmics, class ib (C01BB);Aprindine (C01BB04)",C01BB04
+"Cardiovascular system (C);Cardiac therapy (C01);Antiarrhythmics, class i and iii (C01B);Antiarrhythmics, class ic (C01BC)",C01BC
+"Cardiovascular system (C);Cardiac therapy (C01);Antiarrhythmics, class i and iii (C01B);Antiarrhythmics, class ic (C01BC);Propafenone (C01BC03)",C01BC03
+"Cardiovascular system (C);Cardiac therapy (C01);Antiarrhythmics, class i and iii (C01B);Antiarrhythmics, class ic (C01BC);Flecainide (C01BC04)",C01BC04
+"Cardiovascular system (C);Cardiac therapy (C01);Antiarrhythmics, class i and iii (C01B);Antiarrhythmics, class ic (C01BC);Encainide (C01BC08)",C01BC08
+"Cardiovascular system (C);Cardiac therapy (C01);Antiarrhythmics, class i and iii (C01B);Antiarrhythmics, class iii (C01BD)",C01BD
+"Cardiovascular system (C);Cardiac therapy (C01);Antiarrhythmics, class i and iii (C01B);Antiarrhythmics, class iii (C01BD);Amiodarone (C01BD01)",C01BD01
+"Cardiovascular system (C);Cardiac therapy (C01);Antiarrhythmics, class i and iii (C01B);Antiarrhythmics, class iii (C01BD);Bretylium tosilate (C01BD02)",C01BD02
+"Cardiovascular system (C);Cardiac therapy (C01);Antiarrhythmics, class i and iii (C01B);Antiarrhythmics, class iii (C01BD);Dofetilide (C01BD04)",C01BD04
+"Cardiovascular system (C);Cardiac therapy (C01);Antiarrhythmics, class i and iii (C01B);Antiarrhythmics, class iii (C01BD);Ibutilide (C01BD05)",C01BD05
+"Cardiovascular system (C);Cardiac therapy (C01);Antiarrhythmics, class i and iii (C01B);Antiarrhythmics, class iii (C01BD);Dronedarone (C01BD07)",C01BD07
+"Cardiovascular system (C);Cardiac therapy (C01);Antiarrhythmics, class i and iii (C01B);Other antiarrhythmics, class i and iii (C01BG)",C01BG
+"Cardiovascular system (C);Cardiac therapy (C01);Antiarrhythmics, class i and iii (C01B);Other antiarrhythmics, class i and iii (C01BG);Moracizine (C01BG01)",C01BG01
+"Cardiovascular system (C);Cardiac therapy (C01);Antiarrhythmics, class i and iii (C01B);Other antiarrhythmics, class i and iii (C01BG);Vernakalant (C01BG11)",C01BG11
+Cardiovascular system (C);Cardiac therapy (C01);Cardiac stimulants excl. cardiac glycosides (C01C),C01C
+Cardiovascular system (C);Cardiac therapy (C01);Cardiac stimulants excl. cardiac glycosides (C01C);Adrenergic and dopaminergic agents (C01CA),C01CA
+Cardiovascular system (C);Cardiac therapy (C01);Cardiac stimulants excl. cardiac glycosides (C01C);Adrenergic and dopaminergic agents (C01CA);Isoprenaline (C01CA02),C01CA02
+Cardiovascular system (C);Cardiac therapy (C01);Cardiac stimulants excl. cardiac glycosides (C01C);Adrenergic and dopaminergic agents (C01CA);Norepinephrine (C01CA03),C01CA03
+Cardiovascular system (C);Cardiac therapy (C01);Cardiac stimulants excl. cardiac glycosides (C01C);Adrenergic and dopaminergic agents (C01CA);Dopamine (C01CA04),C01CA04
+Cardiovascular system (C);Cardiac therapy (C01);Cardiac stimulants excl. cardiac glycosides (C01C);Adrenergic and dopaminergic agents (C01CA);Phenylephrine (C01CA06),C01CA06
+Cardiovascular system (C);Cardiac therapy (C01);Cardiac stimulants excl. cardiac glycosides (C01C);Adrenergic and dopaminergic agents (C01CA);Dobutamine (C01CA07),C01CA07
+Cardiovascular system (C);Cardiac therapy (C01);Cardiac stimulants excl. cardiac glycosides (C01C);Adrenergic and dopaminergic agents (C01CA);Oxedrine (C01CA08),C01CA08
+Cardiovascular system (C);Cardiac therapy (C01);Cardiac stimulants excl. cardiac glycosides (C01C);Adrenergic and dopaminergic agents (C01CA);Metaraminol (C01CA09),C01CA09
+Cardiovascular system (C);Cardiac therapy (C01);Cardiac stimulants excl. cardiac glycosides (C01C);Adrenergic and dopaminergic agents (C01CA);Methoxamine (C01CA10),C01CA10
+Cardiovascular system (C);Cardiac therapy (C01);Cardiac stimulants excl. cardiac glycosides (C01C);Adrenergic and dopaminergic agents (C01CA);Mephentermine (C01CA11),C01CA11
+Cardiovascular system (C);Cardiac therapy (C01);Cardiac stimulants excl. cardiac glycosides (C01C);Adrenergic and dopaminergic agents (C01CA);Midodrine (C01CA17),C01CA17
+Cardiovascular system (C);Cardiac therapy (C01);Cardiac stimulants excl. cardiac glycosides (C01C);Adrenergic and dopaminergic agents (C01CA);Fenoldopam (C01CA19),C01CA19
+Cardiovascular system (C);Cardiac therapy (C01);Cardiac stimulants excl. cardiac glycosides (C01C);Adrenergic and dopaminergic agents (C01CA);Arbutamine (C01CA22),C01CA22
+Cardiovascular system (C);Cardiac therapy (C01);Cardiac stimulants excl. cardiac glycosides (C01C);Adrenergic and dopaminergic agents (C01CA);Epinephrine (C01CA24),C01CA24
+Cardiovascular system (C);Cardiac therapy (C01);Cardiac stimulants excl. cardiac glycosides (C01C);Adrenergic and dopaminergic agents (C01CA);Ephedrine (C01CA26),C01CA26
+Cardiovascular system (C);Cardiac therapy (C01);Cardiac stimulants excl. cardiac glycosides (C01C);Adrenergic and dopaminergic agents (C01CA);Droxidopa (C01CA27),C01CA27
+Cardiovascular system (C);Cardiac therapy (C01);Cardiac stimulants excl. cardiac glycosides (C01C);Phosphodiesterase inhibitors (C01CE),C01CE
+Cardiovascular system (C);Cardiac therapy (C01);Cardiac stimulants excl. cardiac glycosides (C01C);Phosphodiesterase inhibitors (C01CE);Amrinone (C01CE01),C01CE01
+Cardiovascular system (C);Cardiac therapy (C01);Cardiac stimulants excl. cardiac glycosides (C01C);Phosphodiesterase inhibitors (C01CE);Milrinone (C01CE02),C01CE02
+Cardiovascular system (C);Cardiac therapy (C01);Cardiac stimulants excl. cardiac glycosides (C01C);Phosphodiesterase inhibitors (C01CE);Enoximone (C01CE03),C01CE03
+Cardiovascular system (C);Cardiac therapy (C01);Cardiac stimulants excl. cardiac glycosides (C01C);Other cardiac stimulants (C01CX),C01CX
+Cardiovascular system (C);Cardiac therapy (C01);Cardiac stimulants excl. cardiac glycosides (C01C);Other cardiac stimulants (C01CX);Xamoterol (C01CX07),C01CX07
+Cardiovascular system (C);Cardiac therapy (C01);Cardiac stimulants excl. cardiac glycosides (C01C);Other cardiac stimulants (C01CX);Levosimendan (C01CX08),C01CX08
+Cardiovascular system (C);Cardiac therapy (C01);Cardiac stimulants excl. cardiac glycosides (C01C);Other cardiac stimulants (C01CX);Angiotensin ii (C01CX09),C01CX09
+Cardiovascular system (C);Cardiac therapy (C01);Vasodilators used in cardiac diseases (C01D),C01D
+Cardiovascular system (C);Cardiac therapy (C01);Vasodilators used in cardiac diseases (C01D);Organic nitrates (C01DA),C01DA
+Cardiovascular system (C);Cardiac therapy (C01);Vasodilators used in cardiac diseases (C01D);Organic nitrates (C01DA);Glyceryl trinitrate (C01DA02),C01DA02
+Cardiovascular system (C);Cardiac therapy (C01);Vasodilators used in cardiac diseases (C01D);Organic nitrates (C01DA);Pentaerithrityl tetranitrate (C01DA05),C01DA05
+Cardiovascular system (C);Cardiac therapy (C01);Vasodilators used in cardiac diseases (C01D);Organic nitrates (C01DA);Isosorbide dinitrate (C01DA08),C01DA08
+Cardiovascular system (C);Cardiac therapy (C01);Vasodilators used in cardiac diseases (C01D);Organic nitrates (C01DA);Eritrityl tetranitrate (C01DA13),C01DA13
+Cardiovascular system (C);Cardiac therapy (C01);Vasodilators used in cardiac diseases (C01D);Organic nitrates (C01DA);Isosorbide mononitrate (C01DA14),C01DA14
+"Cardiovascular system (C);Cardiac therapy (C01);Vasodilators used in cardiac diseases (C01D);Organic nitrates (C01DA);Glyceryl trinitrate, combinations (C01DA52)",C01DA52
+"Cardiovascular system (C);Cardiac therapy (C01);Vasodilators used in cardiac diseases (C01D);Organic nitrates (C01DA);Pentaerithrityl tetranitrate, combinations (C01DA55)",C01DA55
+"Cardiovascular system (C);Cardiac therapy (C01);Vasodilators used in cardiac diseases (C01D);Organic nitrates (C01DA);Isosorbide dinitrate, combinations (C01DA58)",C01DA58
+"Cardiovascular system (C);Cardiac therapy (C01);Vasodilators used in cardiac diseases (C01D);Organic nitrates (C01DA);Eritrityl tetranitrate, combinations (C01DA63)",C01DA63
+Cardiovascular system (C);Cardiac therapy (C01);Vasodilators used in cardiac diseases (C01D);Other vasodilators used in cardiac diseases (C01DX),C01DX
+Cardiovascular system (C);Cardiac therapy (C01);Vasodilators used in cardiac diseases (C01D);Other vasodilators used in cardiac diseases (C01DX);Prenylamine (C01DX02),C01DX02
+Cardiovascular system (C);Cardiac therapy (C01);Vasodilators used in cardiac diseases (C01D);Other vasodilators used in cardiac diseases (C01DX);Trapidil (C01DX11),C01DX11
+Cardiovascular system (C);Cardiac therapy (C01);Vasodilators used in cardiac diseases (C01D);Other vasodilators used in cardiac diseases (C01DX);Molsidomine (C01DX12),C01DX12
+Cardiovascular system (C);Cardiac therapy (C01);Vasodilators used in cardiac diseases (C01D);Other vasodilators used in cardiac diseases (C01DX);Nicorandil (C01DX16),C01DX16
+Cardiovascular system (C);Cardiac therapy (C01);Vasodilators used in cardiac diseases (C01D);Other vasodilators used in cardiac diseases (C01DX);Nesiritide (C01DX19),C01DX19
+"Cardiovascular system (C);Cardiac therapy (C01);Vasodilators used in cardiac diseases (C01D);Other vasodilators used in cardiac diseases (C01DX);Prenylamine, combinations (C01DX52)",C01DX52
+Cardiovascular system (C);Cardiac therapy (C01);Other cardiac preparations (C01E),C01E
+Cardiovascular system (C);Cardiac therapy (C01);Other cardiac preparations (C01E);Prostaglandins (C01EA),C01EA
+Cardiovascular system (C);Cardiac therapy (C01);Other cardiac preparations (C01E);Prostaglandins (C01EA);Alprostadil (C01EA01),C01EA01
+Cardiovascular system (C);Cardiac therapy (C01);Other cardiac preparations (C01E);Other cardiac preparations (C01EB),C01EB
+Cardiovascular system (C);Cardiac therapy (C01);Other cardiac preparations (C01E);Other cardiac preparations (C01EB);Camphora (C01EB02),C01EB02
+Cardiovascular system (C);Cardiac therapy (C01);Other cardiac preparations (C01E);Other cardiac preparations (C01EB);Indometacin (C01EB03),C01EB03
+Cardiovascular system (C);Cardiac therapy (C01);Other cardiac preparations (C01E);Other cardiac preparations (C01EB);Fosfocreatine (C01EB06),C01EB06
+Cardiovascular system (C);Cardiac therapy (C01);Other cardiac preparations (C01E);Other cardiac preparations (C01EB);Ubidecarenone (C01EB09),C01EB09
+Cardiovascular system (C);Cardiac therapy (C01);Other cardiac preparations (C01E);Other cardiac preparations (C01EB);Adenosine (C01EB10),C01EB10
+Cardiovascular system (C);Cardiac therapy (C01);Other cardiac preparations (C01E);Other cardiac preparations (C01EB);Trimetazidine (C01EB15),C01EB15
+Cardiovascular system (C);Cardiac therapy (C01);Other cardiac preparations (C01E);Other cardiac preparations (C01EB);Ibuprofen (C01EB16),C01EB16
+Cardiovascular system (C);Cardiac therapy (C01);Other cardiac preparations (C01E);Other cardiac preparations (C01EB);Ivabradine (C01EB17),C01EB17
+Cardiovascular system (C);Cardiac therapy (C01);Other cardiac preparations (C01E);Other cardiac preparations (C01EB);Ranolazine (C01EB18),C01EB18
+Cardiovascular system (C);Cardiac therapy (C01);Other cardiac preparations (C01E);Other cardiac preparations (C01EB);Regadenoson (C01EB21),C01EB21
+Cardiovascular system (C);Antihypertensives (C02),C02
+"Cardiovascular system (C);Antihypertensives (C02);Antiadrenergic agents, centrally acting (C02A)",C02A
+"Cardiovascular system (C);Antihypertensives (C02);Antiadrenergic agents, centrally acting (C02A);Rauwolfia alkaloids (C02AA)",C02AA
+"Cardiovascular system (C);Antihypertensives (C02);Antiadrenergic agents, centrally acting (C02A);Rauwolfia alkaloids (C02AA);Rescinnamine (C02AA01)",C02AA01
+"Cardiovascular system (C);Antihypertensives (C02);Antiadrenergic agents, centrally acting (C02A);Rauwolfia alkaloids (C02AA);Reserpine (C02AA02)",C02AA02
+"Cardiovascular system (C);Antihypertensives (C02);Antiadrenergic agents, centrally acting (C02A);Rauwolfia alkaloids (C02AA);Combinations of rauwolfia alkaloids (C02AA03)",C02AA03
+"Cardiovascular system (C);Antihypertensives (C02);Antiadrenergic agents, centrally acting (C02A);Rauwolfia alkaloids (C02AA);Deserpidine (C02AA05)",C02AA05
+"Cardiovascular system (C);Antihypertensives (C02);Antiadrenergic agents, centrally acting (C02A);Rauwolfia alkaloids (C02AA);Reserpine, combinations (C02AA52)",C02AA52
+"Cardiovascular system (C);Antihypertensives (C02);Antiadrenergic agents, centrally acting (C02A);Imidazoline receptor agonists (C02AC)",C02AC
+"Cardiovascular system (C);Antihypertensives (C02);Antiadrenergic agents, centrally acting (C02A);Imidazoline receptor agonists (C02AC);Clonidine (C02AC01)",C02AC01
+"Cardiovascular system (C);Antihypertensives (C02);Antiadrenergic agents, centrally acting (C02A);Imidazoline receptor agonists (C02AC);Guanfacine (C02AC02)",C02AC02
+"Cardiovascular system (C);Antihypertensives (C02);Antiadrenergic agents, centrally acting (C02A);Imidazoline receptor agonists (C02AC);Moxonidine (C02AC05)",C02AC05
+"Cardiovascular system (C);Antihypertensives (C02);Antiadrenergic agents, centrally acting (C02A);Imidazoline receptor agonists (C02AC);Rilmenidine (C02AC06)",C02AC06
+"Cardiovascular system (C);Antihypertensives (C02);Antiadrenergic agents, ganglion-blocking (C02B)",C02B
+"Cardiovascular system (C);Antihypertensives (C02);Antiadrenergic agents, ganglion-blocking (C02B);Sulfonium derivatives (C02BA)",C02BA
+"Cardiovascular system (C);Antihypertensives (C02);Antiadrenergic agents, ganglion-blocking (C02B);Sulfonium derivatives (C02BA);Trimetaphan (C02BA01)",C02BA01
+"Cardiovascular system (C);Antihypertensives (C02);Antiadrenergic agents, ganglion-blocking (C02B);Secondary and tertiary amines (C02BB)",C02BB
+"Cardiovascular system (C);Antihypertensives (C02);Antiadrenergic agents, ganglion-blocking (C02B);Secondary and tertiary amines (C02BB);Mecamylamine (C02BB01)",C02BB01
+"Cardiovascular system (C);Antihypertensives (C02);Antiadrenergic agents, peripherally acting (C02C)",C02C
+"Cardiovascular system (C);Antihypertensives (C02);Antiadrenergic agents, peripherally acting (C02C);Alpha-adrenoreceptor antagonists (C02CA)",C02CA
+"Cardiovascular system (C);Antihypertensives (C02);Antiadrenergic agents, peripherally acting (C02C);Alpha-adrenoreceptor antagonists (C02CA);Prazosin (C02CA01)",C02CA01
+"Cardiovascular system (C);Antihypertensives (C02);Antiadrenergic agents, peripherally acting (C02C);Alpha-adrenoreceptor antagonists (C02CA);Indoramin (C02CA02)",C02CA02
+"Cardiovascular system (C);Antihypertensives (C02);Antiadrenergic agents, peripherally acting (C02C);Alpha-adrenoreceptor antagonists (C02CA);Doxazosin (C02CA04)",C02CA04
+"Cardiovascular system (C);Antihypertensives (C02);Antiadrenergic agents, peripherally acting (C02C);Guanidine derivatives (C02CC)",C02CC
+"Cardiovascular system (C);Antihypertensives (C02);Antiadrenergic agents, peripherally acting (C02C);Guanidine derivatives (C02CC);Betanidine (C02CC01)",C02CC01
+"Cardiovascular system (C);Antihypertensives (C02);Antiadrenergic agents, peripherally acting (C02C);Guanidine derivatives (C02CC);Guanethidine (C02CC02)",C02CC02
+"Cardiovascular system (C);Antihypertensives (C02);Antiadrenergic agents, peripherally acting (C02C);Guanidine derivatives (C02CC);Debrisoquine (C02CC04)",C02CC04
+"Cardiovascular system (C);Antihypertensives (C02);Arteriolar smooth muscle, agents acting on (C02D)",C02D
+"Cardiovascular system (C);Antihypertensives (C02);Arteriolar smooth muscle, agents acting on (C02D);Thiazide derivatives (C02DA)",C02DA
+"Cardiovascular system (C);Antihypertensives (C02);Arteriolar smooth muscle, agents acting on (C02D);Thiazide derivatives (C02DA);Diazoxide (C02DA01)",C02DA01
+"Cardiovascular system (C);Antihypertensives (C02);Arteriolar smooth muscle, agents acting on (C02D);Hydrazinophthalazine derivatives (C02DB)",C02DB
+"Cardiovascular system (C);Antihypertensives (C02);Arteriolar smooth muscle, agents acting on (C02D);Hydrazinophthalazine derivatives (C02DB);Dihydralazine (C02DB01)",C02DB01
+"Cardiovascular system (C);Antihypertensives (C02);Arteriolar smooth muscle, agents acting on (C02D);Hydrazinophthalazine derivatives (C02DB);Hydralazine (C02DB02)",C02DB02
+"Cardiovascular system (C);Antihypertensives (C02);Arteriolar smooth muscle, agents acting on (C02D);Pyrimidine derivatives (C02DC)",C02DC
+"Cardiovascular system (C);Antihypertensives (C02);Arteriolar smooth muscle, agents acting on (C02D);Pyrimidine derivatives (C02DC);Minoxidil (C02DC01)",C02DC01
+"Cardiovascular system (C);Antihypertensives (C02);Arteriolar smooth muscle, agents acting on (C02D);Nitroferricyanide derivatives (C02DD)",C02DD
+"Cardiovascular system (C);Antihypertensives (C02);Arteriolar smooth muscle, agents acting on (C02D);Nitroferricyanide derivatives (C02DD);Nitroprusside (C02DD01)",C02DD01
+"Cardiovascular system (C);Antihypertensives (C02);Arteriolar smooth muscle, agents acting on (C02D);Guanidine derivatives (C02DG)",C02DG
+"Cardiovascular system (C);Antihypertensives (C02);Arteriolar smooth muscle, agents acting on (C02D);Guanidine derivatives (C02DG);Pinacidil (C02DG01)",C02DG01
+Cardiovascular system (C);Antihypertensives (C02);Other antihypertensives (C02K),C02K
+Cardiovascular system (C);Antihypertensives (C02);Other antihypertensives (C02K);Tyrosine hydroxylase inhibitors (C02KB),C02KB
+Cardiovascular system (C);Antihypertensives (C02);Other antihypertensives (C02K);Tyrosine hydroxylase inhibitors (C02KB);Metirosine (C02KB01),C02KB01
+Cardiovascular system (C);Antihypertensives (C02);Other antihypertensives (C02K);Mao inhibitors (C02KC),C02KC
+Cardiovascular system (C);Antihypertensives (C02);Other antihypertensives (C02K);Mao inhibitors (C02KC);Pargyline (C02KC01),C02KC01
+Cardiovascular system (C);Antihypertensives (C02);Other antihypertensives (C02K);Serotonin antagonists (C02KD),C02KD
+Cardiovascular system (C);Antihypertensives (C02);Other antihypertensives (C02K);Serotonin antagonists (C02KD);Ketanserin (C02KD01),C02KD01
+Cardiovascular system (C);Antihypertensives (C02);Other antihypertensives (C02K);Antihypertensives for pulmonary arterial hypertension (C02KX),C02KX
+Cardiovascular system (C);Antihypertensives (C02);Other antihypertensives (C02K);Antihypertensives for pulmonary arterial hypertension (C02KX);Bosentan (C02KX01),C02KX01
+Cardiovascular system (C);Antihypertensives (C02);Other antihypertensives (C02K);Antihypertensives for pulmonary arterial hypertension (C02KX);Ambrisentan (C02KX02),C02KX02
+Cardiovascular system (C);Antihypertensives (C02);Other antihypertensives (C02K);Antihypertensives for pulmonary arterial hypertension (C02KX);Sitaxentan (C02KX03),C02KX03
+Cardiovascular system (C);Antihypertensives (C02);Other antihypertensives (C02K);Antihypertensives for pulmonary arterial hypertension (C02KX);Macitentan (C02KX04),C02KX04
+Cardiovascular system (C);Antihypertensives (C02);Other antihypertensives (C02K);Antihypertensives for pulmonary arterial hypertension (C02KX);Riociguat (C02KX05),C02KX05
+Cardiovascular system (C);Antihypertensives (C02);Other antihypertensives (C02K);Antihypertensives for pulmonary arterial hypertension (C02KX);Ambrisentan and tadalafil (C02KX52),C02KX52
+Cardiovascular system (C);Antihypertensives (C02);Antihypertensives and diuretics in combination (C02L),C02L
+Cardiovascular system (C);Antihypertensives (C02);Antihypertensives and diuretics in combination (C02L);Rauwolfia alkaloids and diuretics in combination (C02LA),C02LA
+Cardiovascular system (C);Antihypertensives (C02);Antihypertensives and diuretics in combination (C02L);Rauwolfia alkaloids and diuretics in combination (C02LA);Reserpine and diuretics (C02LA01),C02LA01
+Cardiovascular system (C);Antihypertensives (C02);Antihypertensives and diuretics in combination (C02L);Rauwolfia alkaloids and diuretics in combination (C02LA);Rescinnamine and diuretics (C02LA02),C02LA02
+Cardiovascular system (C);Antihypertensives (C02);Antihypertensives and diuretics in combination (C02L);Rauwolfia alkaloids and diuretics in combination (C02LA);Deserpidine and diuretics (C02LA03),C02LA03
+"Cardiovascular system (C);Antihypertensives (C02);Antihypertensives and diuretics in combination (C02L);Rauwolfia alkaloids and diuretics in combination (C02LA);Rauwolfia alkaloids, whole root and diuretics (C02LA08)",C02LA08
+"Cardiovascular system (C);Antihypertensives (C02);Antihypertensives and diuretics in combination (C02L);Rauwolfia alkaloids and diuretics in combination (C02LA);Reserpine and diuretics, combinations with other drugs (C02LA51)",C02LA51
+"Cardiovascular system (C);Antihypertensives (C02);Antihypertensives and diuretics in combination (C02L);Rauwolfia alkaloids and diuretics in combination (C02LA);Rescinnamine and diuretics, combinations with other drugs (C02LA52)",C02LA52
+"Cardiovascular system (C);Antihypertensives (C02);Antihypertensives and diuretics in combination (C02L);Rauwolfia alkaloids and diuretics in combination (C02LA);Reserpine and diuretics, combinations with psycholeptics (C02LA71)",C02LA71
+Cardiovascular system (C);Antihypertensives (C02);Antihypertensives and diuretics in combination (C02L);Imidazoline receptor agonists in combination with diuretics (C02LC),C02LC
+Cardiovascular system (C);Antihypertensives (C02);Antihypertensives and diuretics in combination (C02L);Imidazoline receptor agonists in combination with diuretics (C02LC);Clonidine and diuretics (C02LC01),C02LC01
+Cardiovascular system (C);Antihypertensives (C02);Antihypertensives and diuretics in combination (C02L);Imidazoline receptor agonists in combination with diuretics (C02LC);Moxonidine and diuretics (C02LC05),C02LC05
+"Cardiovascular system (C);Antihypertensives (C02);Antihypertensives and diuretics in combination (C02L);Imidazoline receptor agonists in combination with diuretics (C02LC);Clonidine and diuretics, combinations with other drugs (C02LC51)",C02LC51
+Cardiovascular system (C);Antihypertensives (C02);Antihypertensives and diuretics in combination (C02L);Alpha-adrenoreceptor antagonists and diuretics (C02LE),C02LE
+Cardiovascular system (C);Antihypertensives (C02);Antihypertensives and diuretics in combination (C02L);Alpha-adrenoreceptor antagonists and diuretics (C02LE);Prazosin and diuretics (C02LE01),C02LE01
+Cardiovascular system (C);Antihypertensives (C02);Antihypertensives and diuretics in combination (C02L);Guanidine derivatives and diuretics (C02LF),C02LF
+Cardiovascular system (C);Antihypertensives (C02);Antihypertensives and diuretics in combination (C02L);Guanidine derivatives and diuretics (C02LF);Guanethidine and diuretics (C02LF01),C02LF01
+Cardiovascular system (C);Antihypertensives (C02);Antihypertensives and diuretics in combination (C02L);Hydrazinophthalazine derivatives and diuretics (C02LG),C02LG
+Cardiovascular system (C);Antihypertensives (C02);Antihypertensives and diuretics in combination (C02L);Hydrazinophthalazine derivatives and diuretics (C02LG);Dihydralazine and diuretics (C02LG01),C02LG01
+Cardiovascular system (C);Antihypertensives (C02);Antihypertensives and diuretics in combination (C02L);Hydrazinophthalazine derivatives and diuretics (C02LG);Hydralazine and diuretics (C02LG02),C02LG02
+"Cardiovascular system (C);Antihypertensives (C02);Antihypertensives and diuretics in combination (C02L);Hydrazinophthalazine derivatives and diuretics (C02LG);Dihydralazine and diuretics, combinations with other drugs (C02LG51)",C02LG51
+Cardiovascular system (C);Antihypertensives (C02);Antihypertensives and diuretics in combination (C02L);Mao inhibitors and diuretics (C02LL),C02LL
+Cardiovascular system (C);Antihypertensives (C02);Antihypertensives and diuretics in combination (C02L);Mao inhibitors and diuretics (C02LL);Pargyline and diuretics (C02LL01),C02LL01
+Cardiovascular system (C);Antihypertensives (C02);Antihypertensives and diuretics in combination (C02L);Other antihypertensives and diuretics (C02LX),C02LX
+Cardiovascular system (C);Antihypertensives (C02);Antihypertensives and diuretics in combination (C02L);Other antihypertensives and diuretics (C02LX);Pinacidil and diuretics (C02LX01),C02LX01
+Cardiovascular system (C);Diuretics (C03),C03
+"Cardiovascular system (C);Diuretics (C03);Low-ceiling diuretics, thiazides (C03A)",C03A
+"Cardiovascular system (C);Diuretics (C03);Low-ceiling diuretics, thiazides (C03A);Thiazides, plain (C03AA)",C03AA
+"Cardiovascular system (C);Diuretics (C03);Low-ceiling diuretics, thiazides (C03A);Thiazides, plain (C03AA);Bendroflumethiazide (C03AA01)",C03AA01
+"Cardiovascular system (C);Diuretics (C03);Low-ceiling diuretics, thiazides (C03A);Thiazides, plain (C03AA);Hydroflumethiazide (C03AA02)",C03AA02
+"Cardiovascular system (C);Diuretics (C03);Low-ceiling diuretics, thiazides (C03A);Thiazides, plain (C03AA);Hydrochlorothiazide (C03AA03)",C03AA03
+"Cardiovascular system (C);Diuretics (C03);Low-ceiling diuretics, thiazides (C03A);Thiazides, plain (C03AA);Chlorothiazide (C03AA04)",C03AA04
+"Cardiovascular system (C);Diuretics (C03);Low-ceiling diuretics, thiazides (C03A);Thiazides, plain (C03AA);Polythiazide (C03AA05)",C03AA05
+"Cardiovascular system (C);Diuretics (C03);Low-ceiling diuretics, thiazides (C03A);Thiazides, plain (C03AA);Trichlormethiazide (C03AA06)",C03AA06
+"Cardiovascular system (C);Diuretics (C03);Low-ceiling diuretics, thiazides (C03A);Thiazides, plain (C03AA);Methyclothiazide (C03AA08)",C03AA08
+"Cardiovascular system (C);Diuretics (C03);Low-ceiling diuretics, thiazides (C03A);Thiazides, plain (C03AA);Cyclothiazide (C03AA09)",C03AA09
+"Cardiovascular system (C);Diuretics (C03);Low-ceiling diuretics, thiazides (C03A);Thiazides and potassium in combination (C03AB)",C03AB
+"Cardiovascular system (C);Diuretics (C03);Low-ceiling diuretics, thiazides (C03A);Thiazides and potassium in combination (C03AB);Bendroflumethiazide and potassium (C03AB01)",C03AB01
+"Cardiovascular system (C);Diuretics (C03);Low-ceiling diuretics, thiazides (C03A);Thiazides and potassium in combination (C03AB);Hydroflumethiazide and potassium (C03AB02)",C03AB02
+"Cardiovascular system (C);Diuretics (C03);Low-ceiling diuretics, thiazides (C03A);Thiazides and potassium in combination (C03AB);Hydrochlorothiazide and potassium (C03AB03)",C03AB03
+"Cardiovascular system (C);Diuretics (C03);Low-ceiling diuretics, thiazides (C03A);Thiazides and potassium in combination (C03AB);Chlorothiazide and potassium (C03AB04)",C03AB04
+"Cardiovascular system (C);Diuretics (C03);Low-ceiling diuretics, thiazides (C03A);Thiazides and potassium in combination (C03AB);Polythiazide and potassium (C03AB05)",C03AB05
+"Cardiovascular system (C);Diuretics (C03);Low-ceiling diuretics, thiazides (C03A);Thiazides and potassium in combination (C03AB);Trichlormethiazide and potassium (C03AB06)",C03AB06
+"Cardiovascular system (C);Diuretics (C03);Low-ceiling diuretics, thiazides (C03A);Thiazides and potassium in combination (C03AB);Cyclopenthiazide and potassium (C03AB07)",C03AB07
+"Cardiovascular system (C);Diuretics (C03);Low-ceiling diuretics, thiazides (C03A);Thiazides and potassium in combination (C03AB);Methyclothiazide and potassium (C03AB08)",C03AB08
+"Cardiovascular system (C);Diuretics (C03);Low-ceiling diuretics, thiazides (C03A);Thiazides and potassium in combination (C03AB);Cyclothiazide and potassium (C03AB09)",C03AB09
+"Cardiovascular system (C);Diuretics (C03);Low-ceiling diuretics, thiazides (C03A);Thiazides, combinations with psycholeptics and/or analgesics (C03AH)",C03AH
+"Cardiovascular system (C);Diuretics (C03);Low-ceiling diuretics, thiazides (C03A);Thiazides, combinations with psycholeptics and/or analgesics (C03AH);Chlorothiazide, combinations (C03AH01)",C03AH01
+"Cardiovascular system (C);Diuretics (C03);Low-ceiling diuretics, thiazides (C03A);Thiazides, combinations with psycholeptics and/or analgesics (C03AH);Hydroflumethiazide, combinations (C03AH02)",C03AH02
+"Cardiovascular system (C);Diuretics (C03);Low-ceiling diuretics, thiazides (C03A);Thiazides, combinations with other drugs (C03AX)",C03AX
+"Cardiovascular system (C);Diuretics (C03);Low-ceiling diuretics, thiazides (C03A);Thiazides, combinations with other drugs (C03AX);Hydrochlorothiazide, combinations (C03AX01)",C03AX01
+"Cardiovascular system (C);Diuretics (C03);Low-ceiling diuretics, excl. thiazides (C03B)",C03B
+"Cardiovascular system (C);Diuretics (C03);Low-ceiling diuretics, excl. thiazides (C03B);Sulfonamides, plain (C03BA)",C03BA
+"Cardiovascular system (C);Diuretics (C03);Low-ceiling diuretics, excl. thiazides (C03B);Sulfonamides, plain (C03BA);Quinethazone (C03BA02)",C03BA02
+"Cardiovascular system (C);Diuretics (C03);Low-ceiling diuretics, excl. thiazides (C03B);Sulfonamides, plain (C03BA);Chlortalidone (C03BA04)",C03BA04
+"Cardiovascular system (C);Diuretics (C03);Low-ceiling diuretics, excl. thiazides (C03B);Sulfonamides, plain (C03BA);Metolazone (C03BA08)",C03BA08
+"Cardiovascular system (C);Diuretics (C03);Low-ceiling diuretics, excl. thiazides (C03B);Sulfonamides, plain (C03BA);Indapamide (C03BA11)",C03BA11
+"Cardiovascular system (C);Diuretics (C03);Low-ceiling diuretics, excl. thiazides (C03B);Sulfonamides and potassium in combination (C03BB)",C03BB
+"Cardiovascular system (C);Diuretics (C03);Low-ceiling diuretics, excl. thiazides (C03B);Sulfonamides and potassium in combination (C03BB);Quinethazone and potassium (C03BB02)",C03BB02
+"Cardiovascular system (C);Diuretics (C03);Low-ceiling diuretics, excl. thiazides (C03B);Sulfonamides and potassium in combination (C03BB);Clopamide and potassium (C03BB03)",C03BB03
+"Cardiovascular system (C);Diuretics (C03);Low-ceiling diuretics, excl. thiazides (C03B);Sulfonamides and potassium in combination (C03BB);Chlortalidone and potassium (C03BB04)",C03BB04
+"Cardiovascular system (C);Diuretics (C03);Low-ceiling diuretics, excl. thiazides (C03B);Sulfonamides and potassium in combination (C03BB);Mefruside and potassium (C03BB05)",C03BB05
+"Cardiovascular system (C);Diuretics (C03);Low-ceiling diuretics, excl. thiazides (C03B);Sulfonamides and potassium in combination (C03BB);Clofenamide and potassium (C03BB07)",C03BB07
+"Cardiovascular system (C);Diuretics (C03);Low-ceiling diuretics, excl. thiazides (C03B);Mercurial diuretics (C03BC)",C03BC
+"Cardiovascular system (C);Diuretics (C03);Low-ceiling diuretics, excl. thiazides (C03B);Mercurial diuretics (C03BC);Mersalyl (C03BC01)",C03BC01
+"Cardiovascular system (C);Diuretics (C03);Low-ceiling diuretics, excl. thiazides (C03B);Xanthine derivatives (C03BD)",C03BD
+"Cardiovascular system (C);Diuretics (C03);Low-ceiling diuretics, excl. thiazides (C03B);Xanthine derivatives (C03BD);Theobromine (C03BD01)",C03BD01
+Cardiovascular system (C);Diuretics (C03);High-ceiling diuretics (C03C),C03C
+"Cardiovascular system (C);Diuretics (C03);High-ceiling diuretics (C03C);Sulfonamides, plain (C03CA)",C03CA
+"Cardiovascular system (C);Diuretics (C03);High-ceiling diuretics (C03C);Sulfonamides, plain (C03CA);Furosemide (C03CA01)",C03CA01
+"Cardiovascular system (C);Diuretics (C03);High-ceiling diuretics (C03C);Sulfonamides, plain (C03CA);Bumetanide (C03CA02)",C03CA02
+"Cardiovascular system (C);Diuretics (C03);High-ceiling diuretics (C03C);Sulfonamides, plain (C03CA);Piretanide (C03CA03)",C03CA03
+"Cardiovascular system (C);Diuretics (C03);High-ceiling diuretics (C03C);Sulfonamides, plain (C03CA);Torasemide (C03CA04)",C03CA04
+Cardiovascular system (C);Diuretics (C03);High-ceiling diuretics (C03C);Sulfonamides and potassium in combination (C03CB),C03CB
+Cardiovascular system (C);Diuretics (C03);High-ceiling diuretics (C03C);Sulfonamides and potassium in combination (C03CB);Furosemide and potassium (C03CB01),C03CB01
+Cardiovascular system (C);Diuretics (C03);High-ceiling diuretics (C03C);Sulfonamides and potassium in combination (C03CB);Bumetanide and potassium (C03CB02),C03CB02
+Cardiovascular system (C);Diuretics (C03);High-ceiling diuretics (C03C);Aryloxyacetic acid derivatives (C03CC),C03CC
+Cardiovascular system (C);Diuretics (C03);High-ceiling diuretics (C03C);Aryloxyacetic acid derivatives (C03CC);Etacrynic acid (C03CC01),C03CC01
+Cardiovascular system (C);Diuretics (C03);High-ceiling diuretics (C03C);Aryloxyacetic acid derivatives (C03CC);Tienilic acid (C03CC02),C03CC02
+Cardiovascular system (C);Diuretics (C03);Potassium-sparing agents (C03D),C03D
+Cardiovascular system (C);Diuretics (C03);Potassium-sparing agents (C03D);Aldosterone antagonists (C03DA),C03DA
+Cardiovascular system (C);Diuretics (C03);Potassium-sparing agents (C03D);Aldosterone antagonists (C03DA);Spironolactone (C03DA01),C03DA01
+Cardiovascular system (C);Diuretics (C03);Potassium-sparing agents (C03D);Aldosterone antagonists (C03DA);Eplerenone (C03DA04),C03DA04
+Cardiovascular system (C);Diuretics (C03);Potassium-sparing agents (C03D);Other potassium-sparing agents (C03DB),C03DB
+Cardiovascular system (C);Diuretics (C03);Potassium-sparing agents (C03D);Other potassium-sparing agents (C03DB);Amiloride (C03DB01),C03DB01
+Cardiovascular system (C);Diuretics (C03);Potassium-sparing agents (C03D);Other potassium-sparing agents (C03DB);Triamterene (C03DB02),C03DB02
+Cardiovascular system (C);Diuretics (C03);Diuretics and potassium-sparing agents in combination (C03E),C03E
+Cardiovascular system (C);Diuretics (C03);Diuretics and potassium-sparing agents in combination (C03E);Low-ceiling diuretics and potassium-sparing agents (C03EA),C03EA
+Cardiovascular system (C);Diuretics (C03);Diuretics and potassium-sparing agents in combination (C03E);Low-ceiling diuretics and potassium-sparing agents (C03EA);Hydrochlorothiazide and potassium-sparing agents (C03EA01),C03EA01
+Cardiovascular system (C);Diuretics (C03);Diuretics and potassium-sparing agents in combination (C03E);Low-ceiling diuretics and potassium-sparing agents (C03EA);Trichlormethiazide and potassium-sparing agents (C03EA02),C03EA02
+Cardiovascular system (C);Diuretics (C03);Diuretics and potassium-sparing agents in combination (C03E);Low-ceiling diuretics and potassium-sparing agents (C03EA);Chlortalidone and potassium-sparing agents (C03EA06),C03EA06
+Cardiovascular system (C);Diuretics (C03);Diuretics and potassium-sparing agents in combination (C03E);Low-ceiling diuretics and potassium-sparing agents (C03EA);Metolazone and potassium-sparing agents (C03EA12),C03EA12
+Cardiovascular system (C);Diuretics (C03);Diuretics and potassium-sparing agents in combination (C03E);Low-ceiling diuretics and potassium-sparing agents (C03EA);Bendroflumethiazide and potassium-sparing agents (C03EA13),C03EA13
+Cardiovascular system (C);Diuretics (C03);Diuretics and potassium-sparing agents in combination (C03E);High-ceiling diuretics and potassium-sparing agents (C03EB),C03EB
+Cardiovascular system (C);Diuretics (C03);Diuretics and potassium-sparing agents in combination (C03E);High-ceiling diuretics and potassium-sparing agents (C03EB);Furosemide and potassium-sparing agents (C03EB01),C03EB01
+Cardiovascular system (C);Diuretics (C03);Diuretics and potassium-sparing agents in combination (C03E);High-ceiling diuretics and potassium-sparing agents (C03EB);Bumetanide and potassium-sparing agents (C03EB02),C03EB02
+Cardiovascular system (C);Diuretics (C03);Other diuretics (C03X),C03X
+Cardiovascular system (C);Diuretics (C03);Other diuretics (C03X);Vasopressin antagonists (C03XA),C03XA
+Cardiovascular system (C);Diuretics (C03);Other diuretics (C03X);Vasopressin antagonists (C03XA);Tolvaptan (C03XA01),C03XA01
+Cardiovascular system (C);Diuretics (C03);Other diuretics (C03X);Vasopressin antagonists (C03XA);Conivaptan (C03XA02),C03XA02
+Cardiovascular system (C);Peripheral vasodilators (C04),C04
+Cardiovascular system (C);Peripheral vasodilators (C04);Peripheral vasodilators (C04A),C04A
+Cardiovascular system (C);Peripheral vasodilators (C04);Peripheral vasodilators (C04A);2-amino-1-phenylethanol derivatives (C04AA),C04AA
+Cardiovascular system (C);Peripheral vasodilators (C04);Peripheral vasodilators (C04A);2-amino-1-phenylethanol derivatives (C04AA);Buphenine (C04AA02),C04AA02
+Cardiovascular system (C);Peripheral vasodilators (C04);Peripheral vasodilators (C04A);Imidazoline derivatives (C04AB),C04AB
+Cardiovascular system (C);Peripheral vasodilators (C04);Peripheral vasodilators (C04A);Imidazoline derivatives (C04AB);Phentolamine (C04AB01),C04AB01
+Cardiovascular system (C);Peripheral vasodilators (C04);Peripheral vasodilators (C04A);Imidazoline derivatives (C04AB);Tolazoline (C04AB02),C04AB02
+Cardiovascular system (C);Peripheral vasodilators (C04);Peripheral vasodilators (C04A);Nicotinic acid and derivatives (C04AC),C04AC
+Cardiovascular system (C);Peripheral vasodilators (C04);Peripheral vasodilators (C04A);Nicotinic acid and derivatives (C04AC);Nicotinic acid (C04AC01),C04AC01
+Cardiovascular system (C);Peripheral vasodilators (C04);Peripheral vasodilators (C04A);Nicotinic acid and derivatives (C04AC);Inositol nicotinate (C04AC03),C04AC03
+Cardiovascular system (C);Peripheral vasodilators (C04);Peripheral vasodilators (C04A);Purine derivatives (C04AD),C04AD
+Cardiovascular system (C);Peripheral vasodilators (C04);Peripheral vasodilators (C04A);Purine derivatives (C04AD);Pentifylline (C04AD01),C04AD01
+Cardiovascular system (C);Peripheral vasodilators (C04);Peripheral vasodilators (C04A);Purine derivatives (C04AD);Xantinol nicotinate (C04AD02),C04AD02
+Cardiovascular system (C);Peripheral vasodilators (C04);Peripheral vasodilators (C04A);Purine derivatives (C04AD);Pentoxifylline (C04AD03),C04AD03
+Cardiovascular system (C);Peripheral vasodilators (C04);Peripheral vasodilators (C04A);Ergot alkaloids (C04AE),C04AE
+Cardiovascular system (C);Peripheral vasodilators (C04);Peripheral vasodilators (C04A);Ergot alkaloids (C04AE);Nicergoline (C04AE02),C04AE02
+Cardiovascular system (C);Peripheral vasodilators (C04);Peripheral vasodilators (C04A);Ergot alkaloids (C04AE);Dihydroergocristine (C04AE04),C04AE04
+"Cardiovascular system (C);Peripheral vasodilators (C04);Peripheral vasodilators (C04A);Ergot alkaloids (C04AE);Dihydroergocristine, combinations (C04AE54)",C04AE54
+Cardiovascular system (C);Peripheral vasodilators (C04);Peripheral vasodilators (C04A);Other peripheral vasodilators (C04AX),C04AX
+Cardiovascular system (C);Peripheral vasodilators (C04);Peripheral vasodilators (C04A);Other peripheral vasodilators (C04AX);Cyclandelate (C04AX01),C04AX01
+Cardiovascular system (C);Peripheral vasodilators (C04);Peripheral vasodilators (C04A);Other peripheral vasodilators (C04AX);Phenoxybenzamine (C04AX02),C04AX02
+Cardiovascular system (C);Peripheral vasodilators (C04);Peripheral vasodilators (C04A);Other peripheral vasodilators (C04AX);Moxisylyte (C04AX10),C04AX10
+Cardiovascular system (C);Peripheral vasodilators (C04);Peripheral vasodilators (C04A);Other peripheral vasodilators (C04AX);Bencyclane (C04AX11),C04AX11
+Cardiovascular system (C);Peripheral vasodilators (C04);Peripheral vasodilators (C04A);Other peripheral vasodilators (C04AX);Ifenprodil (C04AX28),C04AX28
+Cardiovascular system (C);Peripheral vasodilators (C04);Peripheral vasodilators (C04A);Other peripheral vasodilators (C04AX);Fasudil (C04AX32),C04AX32
+Cardiovascular system (C);Vasoprotectives (C05),C05
+Cardiovascular system (C);Vasoprotectives (C05);Agents for treatment of hemorrhoids and anal fissures for topical use (C05A),C05A
+Cardiovascular system (C);Vasoprotectives (C05);Agents for treatment of hemorrhoids and anal fissures for topical use (C05A);Corticosteroids (C05AA),C05AA
+Cardiovascular system (C);Vasoprotectives (C05);Agents for treatment of hemorrhoids and anal fissures for topical use (C05A);Corticosteroids (C05AA);Hydrocortisone (C05AA01),C05AA01
+Cardiovascular system (C);Vasoprotectives (C05);Agents for treatment of hemorrhoids and anal fissures for topical use (C05A);Corticosteroids (C05AA);Prednisolone (C05AA04),C05AA04
+Cardiovascular system (C);Vasoprotectives (C05);Agents for treatment of hemorrhoids and anal fissures for topical use (C05A);Corticosteroids (C05AA);Betamethasone (C05AA05),C05AA05
+Cardiovascular system (C);Vasoprotectives (C05);Agents for treatment of hemorrhoids and anal fissures for topical use (C05A);Corticosteroids (C05AA);Fluorometholone (C05AA06),C05AA06
+Cardiovascular system (C);Vasoprotectives (C05);Agents for treatment of hemorrhoids and anal fissures for topical use (C05A);Corticosteroids (C05AA);Fluocortolone (C05AA08),C05AA08
+Cardiovascular system (C);Vasoprotectives (C05);Agents for treatment of hemorrhoids and anal fissures for topical use (C05A);Corticosteroids (C05AA);Dexamethasone (C05AA09),C05AA09
+Cardiovascular system (C);Vasoprotectives (C05);Agents for treatment of hemorrhoids and anal fissures for topical use (C05A);Corticosteroids (C05AA);Fluocinolone acetonide (C05AA10),C05AA10
+Cardiovascular system (C);Vasoprotectives (C05);Agents for treatment of hemorrhoids and anal fissures for topical use (C05A);Corticosteroids (C05AA);Fluocinonide (C05AA11),C05AA11
+Cardiovascular system (C);Vasoprotectives (C05);Agents for treatment of hemorrhoids and anal fissures for topical use (C05A);Corticosteroids (C05AA);Triamcinolone (C05AA12),C05AA12
+Cardiovascular system (C);Vasoprotectives (C05);Agents for treatment of hemorrhoids and anal fissures for topical use (C05A);Local anesthetics (C05AD),C05AD
+Cardiovascular system (C);Vasoprotectives (C05);Agents for treatment of hemorrhoids and anal fissures for topical use (C05A);Local anesthetics (C05AD);Lidocaine (C05AD01),C05AD01
+Cardiovascular system (C);Vasoprotectives (C05);Agents for treatment of hemorrhoids and anal fissures for topical use (C05A);Local anesthetics (C05AD);Tetracaine (C05AD02),C05AD02
+Cardiovascular system (C);Vasoprotectives (C05);Agents for treatment of hemorrhoids and anal fissures for topical use (C05A);Local anesthetics (C05AD);Benzocaine (C05AD03),C05AD03
+Cardiovascular system (C);Vasoprotectives (C05);Agents for treatment of hemorrhoids and anal fissures for topical use (C05A);Local anesthetics (C05AD);Cinchocaine (C05AD04),C05AD04
+Cardiovascular system (C);Vasoprotectives (C05);Agents for treatment of hemorrhoids and anal fissures for topical use (C05A);Local anesthetics (C05AD);Procaine (C05AD05),C05AD05
+Cardiovascular system (C);Vasoprotectives (C05);Agents for treatment of hemorrhoids and anal fissures for topical use (C05A);Local anesthetics (C05AD);Oxetacaine (C05AD06),C05AD06
+Cardiovascular system (C);Vasoprotectives (C05);Agents for treatment of hemorrhoids and anal fissures for topical use (C05A);Local anesthetics (C05AD);Pramocaine (C05AD07),C05AD07
+Cardiovascular system (C);Vasoprotectives (C05);Agents for treatment of hemorrhoids and anal fissures for topical use (C05A);Muscle relaxants (C05AE),C05AE
+Cardiovascular system (C);Vasoprotectives (C05);Agents for treatment of hemorrhoids and anal fissures for topical use (C05A);Muscle relaxants (C05AE);Glyceryl trinitrate (C05AE01),C05AE01
+Cardiovascular system (C);Vasoprotectives (C05);Agents for treatment of hemorrhoids and anal fissures for topical use (C05A);Muscle relaxants (C05AE);Isosorbide dinitrate (C05AE02),C05AE02
+Cardiovascular system (C);Vasoprotectives (C05);Agents for treatment of hemorrhoids and anal fissures for topical use (C05A);Muscle relaxants (C05AE);Diltiazem (C05AE03),C05AE03
+Cardiovascular system (C);Vasoprotectives (C05);Agents for treatment of hemorrhoids and anal fissures for topical use (C05A);Other agents for treatment of hemorrhoids and anal fissures for topical use (C05AX),C05AX
+Cardiovascular system (C);Vasoprotectives (C05);Agents for treatment of hemorrhoids and anal fissures for topical use (C05A);Other agents for treatment of hemorrhoids and anal fissures for topical use (C05AX);Zinc preparations (C05AX04),C05AX04
+Cardiovascular system (C);Vasoprotectives (C05);Antivaricose therapy (C05B),C05B
+Cardiovascular system (C);Vasoprotectives (C05);Antivaricose therapy (C05B);Heparins or heparinoids for topical use (C05BA),C05BA
+Cardiovascular system (C);Vasoprotectives (C05);Antivaricose therapy (C05B);Heparins or heparinoids for topical use (C05BA);Heparin (C05BA03),C05BA03
+Cardiovascular system (C);Vasoprotectives (C05);Antivaricose therapy (C05B);Heparins or heparinoids for topical use (C05BA);Pentosan polysulfate sodium (C05BA04),C05BA04
+"Cardiovascular system (C);Vasoprotectives (C05);Antivaricose therapy (C05B);Heparins or heparinoids for topical use (C05BA);Heparin, combinations (C05BA53)",C05BA53
+Cardiovascular system (C);Vasoprotectives (C05);Antivaricose therapy (C05B);Sclerosing agents for local injection (C05BB),C05BB
+Cardiovascular system (C);Vasoprotectives (C05);Antivaricose therapy (C05B);Sclerosing agents for local injection (C05BB);Monoethanolamine oleate (C05BB01),C05BB01
+Cardiovascular system (C);Vasoprotectives (C05);Antivaricose therapy (C05B);Sclerosing agents for local injection (C05BB);Invert sugar (C05BB03),C05BB03
+Cardiovascular system (C);Vasoprotectives (C05);Antivaricose therapy (C05B);Sclerosing agents for local injection (C05BB);Sodium tetradecyl sulfate (C05BB04),C05BB04
+Cardiovascular system (C);Vasoprotectives (C05);Antivaricose therapy (C05B);Sclerosing agents for local injection (C05BB);Phenol (C05BB05),C05BB05
+Cardiovascular system (C);Vasoprotectives (C05);Capillary stabilizing agents (C05C),C05C
+Cardiovascular system (C);Vasoprotectives (C05);Capillary stabilizing agents (C05C);Bioflavonoids (C05CA),C05CA
+Cardiovascular system (C);Vasoprotectives (C05);Capillary stabilizing agents (C05C);Bioflavonoids (C05CA);Rutoside (C05CA01),C05CA01
+Cardiovascular system (C);Vasoprotectives (C05);Capillary stabilizing agents (C05C);Bioflavonoids (C05CA);Diosmin (C05CA03),C05CA03
+"Cardiovascular system (C);Vasoprotectives (C05);Capillary stabilizing agents (C05C);Bioflavonoids (C05CA);Rutoside, combinations (C05CA51)",C05CA51
+"Cardiovascular system (C);Vasoprotectives (C05);Capillary stabilizing agents (C05C);Bioflavonoids (C05CA);Diosmin, combinations (C05CA53)",C05CA53
+Cardiovascular system (C);Beta blocking agents (C07),C07
+Cardiovascular system (C);Beta blocking agents (C07);Beta blocking agents (C07A),C07A
+"Cardiovascular system (C);Beta blocking agents (C07);Beta blocking agents (C07A);Beta blocking agents, non-selective (C07AA)",C07AA
+"Cardiovascular system (C);Beta blocking agents (C07);Beta blocking agents (C07A);Beta blocking agents, non-selective (C07AA);Alprenolol (C07AA01)",C07AA01
+"Cardiovascular system (C);Beta blocking agents (C07);Beta blocking agents (C07A);Beta blocking agents, non-selective (C07AA);Oxprenolol (C07AA02)",C07AA02
+"Cardiovascular system (C);Beta blocking agents (C07);Beta blocking agents (C07A);Beta blocking agents, non-selective (C07AA);Pindolol (C07AA03)",C07AA03
+"Cardiovascular system (C);Beta blocking agents (C07);Beta blocking agents (C07A);Beta blocking agents, non-selective (C07AA);Propranolol (C07AA05)",C07AA05
+"Cardiovascular system (C);Beta blocking agents (C07);Beta blocking agents (C07A);Beta blocking agents, non-selective (C07AA);Timolol (C07AA06)",C07AA06
+"Cardiovascular system (C);Beta blocking agents (C07);Beta blocking agents (C07A);Beta blocking agents, non-selective (C07AA);Sotalol (C07AA07)",C07AA07
+"Cardiovascular system (C);Beta blocking agents (C07);Beta blocking agents (C07A);Beta blocking agents, non-selective (C07AA);Nadolol (C07AA12)",C07AA12
+"Cardiovascular system (C);Beta blocking agents (C07);Beta blocking agents (C07A);Beta blocking agents, non-selective (C07AA);Mepindolol (C07AA14)",C07AA14
+"Cardiovascular system (C);Beta blocking agents (C07);Beta blocking agents (C07A);Beta blocking agents, non-selective (C07AA);Carteolol (C07AA15)",C07AA15
+"Cardiovascular system (C);Beta blocking agents (C07);Beta blocking agents (C07A);Beta blocking agents, non-selective (C07AA);Tertatolol (C07AA16)",C07AA16
+"Cardiovascular system (C);Beta blocking agents (C07);Beta blocking agents (C07A);Beta blocking agents, non-selective (C07AA);Bopindolol (C07AA17)",C07AA17
+"Cardiovascular system (C);Beta blocking agents (C07);Beta blocking agents (C07A);Beta blocking agents, non-selective (C07AA);Bupranolol (C07AA19)",C07AA19
+"Cardiovascular system (C);Beta blocking agents (C07);Beta blocking agents (C07A);Beta blocking agents, non-selective (C07AA);Penbutolol (C07AA23)",C07AA23
+"Cardiovascular system (C);Beta blocking agents (C07);Beta blocking agents (C07A);Beta blocking agents, non-selective (C07AA);Cloranolol (C07AA27)",C07AA27
+"Cardiovascular system (C);Beta blocking agents (C07);Beta blocking agents (C07A);Beta blocking agents, selective (C07AB)",C07AB
+"Cardiovascular system (C);Beta blocking agents (C07);Beta blocking agents (C07A);Beta blocking agents, selective (C07AB);Practolol (C07AB01)",C07AB01
+"Cardiovascular system (C);Beta blocking agents (C07);Beta blocking agents (C07A);Beta blocking agents, selective (C07AB);Metoprolol (C07AB02)",C07AB02
+"Cardiovascular system (C);Beta blocking agents (C07);Beta blocking agents (C07A);Beta blocking agents, selective (C07AB);Atenolol (C07AB03)",C07AB03
+"Cardiovascular system (C);Beta blocking agents (C07);Beta blocking agents (C07A);Beta blocking agents, selective (C07AB);Acebutolol (C07AB04)",C07AB04
+"Cardiovascular system (C);Beta blocking agents (C07);Beta blocking agents (C07A);Beta blocking agents, selective (C07AB);Betaxolol (C07AB05)",C07AB05
+"Cardiovascular system (C);Beta blocking agents (C07);Beta blocking agents (C07A);Beta blocking agents, selective (C07AB);Bevantolol (C07AB06)",C07AB06
+"Cardiovascular system (C);Beta blocking agents (C07);Beta blocking agents (C07A);Beta blocking agents, selective (C07AB);Bisoprolol (C07AB07)",C07AB07
+"Cardiovascular system (C);Beta blocking agents (C07);Beta blocking agents (C07A);Beta blocking agents, selective (C07AB);Celiprolol (C07AB08)",C07AB08
+"Cardiovascular system (C);Beta blocking agents (C07);Beta blocking agents (C07A);Beta blocking agents, selective (C07AB);Esmolol (C07AB09)",C07AB09
+"Cardiovascular system (C);Beta blocking agents (C07);Beta blocking agents (C07A);Beta blocking agents, selective (C07AB);Epanolol (C07AB10)",C07AB10
+"Cardiovascular system (C);Beta blocking agents (C07);Beta blocking agents (C07A);Beta blocking agents, selective (C07AB);S-atenolol (C07AB11)",C07AB11
+"Cardiovascular system (C);Beta blocking agents (C07);Beta blocking agents (C07A);Beta blocking agents, selective (C07AB);Nebivolol (C07AB12)",C07AB12
+"Cardiovascular system (C);Beta blocking agents (C07);Beta blocking agents (C07A);Beta blocking agents, selective (C07AB);Talinolol (C07AB13)",C07AB13
+"Cardiovascular system (C);Beta blocking agents (C07);Beta blocking agents (C07A);Beta blocking agents, selective (C07AB);Landiolol (C07AB14)",C07AB14
+Cardiovascular system (C);Beta blocking agents (C07);Beta blocking agents (C07A);Alpha and beta blocking agents (C07AG),C07AG
+Cardiovascular system (C);Beta blocking agents (C07);Beta blocking agents (C07A);Alpha and beta blocking agents (C07AG);Labetalol (C07AG01),C07AG01
+Cardiovascular system (C);Beta blocking agents (C07);Beta blocking agents (C07A);Alpha and beta blocking agents (C07AG);Carvedilol (C07AG02),C07AG02
+Cardiovascular system (C);Beta blocking agents (C07);Beta blocking agents and thiazides (C07B),C07B
+"Cardiovascular system (C);Beta blocking agents (C07);Beta blocking agents and thiazides (C07B);Beta blocking agents, non-selective, and thiazides (C07BA)",C07BA
+"Cardiovascular system (C);Beta blocking agents (C07);Beta blocking agents and thiazides (C07B);Beta blocking agents, non-selective, and thiazides (C07BA);Oxprenolol and thiazides (C07BA02)",C07BA02
+"Cardiovascular system (C);Beta blocking agents (C07);Beta blocking agents and thiazides (C07B);Beta blocking agents, non-selective, and thiazides (C07BA);Propranolol and thiazides (C07BA05)",C07BA05
+"Cardiovascular system (C);Beta blocking agents (C07);Beta blocking agents and thiazides (C07B);Beta blocking agents, non-selective, and thiazides (C07BA);Timolol and thiazides (C07BA06)",C07BA06
+"Cardiovascular system (C);Beta blocking agents (C07);Beta blocking agents and thiazides (C07B);Beta blocking agents, non-selective, and thiazides (C07BA);Sotalol and thiazides (C07BA07)",C07BA07
+"Cardiovascular system (C);Beta blocking agents (C07);Beta blocking agents and thiazides (C07B);Beta blocking agents, non-selective, and thiazides (C07BA);Nadolol and thiazides (C07BA12)",C07BA12
+"Cardiovascular system (C);Beta blocking agents (C07);Beta blocking agents and thiazides (C07B);Beta blocking agents, non-selective, and thiazides (C07BA);Metipranolol and thiazides, combinations (C07BA68)",C07BA68
+"Cardiovascular system (C);Beta blocking agents (C07);Beta blocking agents and thiazides (C07B);Beta blocking agents, selective, and thiazides (C07BB)",C07BB
+"Cardiovascular system (C);Beta blocking agents (C07);Beta blocking agents and thiazides (C07B);Beta blocking agents, selective, and thiazides (C07BB);Metoprolol and thiazides (C07BB02)",C07BB02
+"Cardiovascular system (C);Beta blocking agents (C07);Beta blocking agents and thiazides (C07B);Beta blocking agents, selective, and thiazides (C07BB);Atenolol and thiazides (C07BB03)",C07BB03
+"Cardiovascular system (C);Beta blocking agents (C07);Beta blocking agents and thiazides (C07B);Beta blocking agents, selective, and thiazides (C07BB);Acebutolol and thiazides (C07BB04)",C07BB04
+"Cardiovascular system (C);Beta blocking agents (C07);Beta blocking agents and thiazides (C07B);Beta blocking agents, selective, and thiazides (C07BB);Bevantolol and thiazides (C07BB06)",C07BB06
+"Cardiovascular system (C);Beta blocking agents (C07);Beta blocking agents and thiazides (C07B);Beta blocking agents, selective, and thiazides (C07BB);Bisoprolol and thiazides (C07BB07)",C07BB07
+"Cardiovascular system (C);Beta blocking agents (C07);Beta blocking agents and thiazides (C07B);Beta blocking agents, selective, and thiazides (C07BB);Nebivolol and thiazides (C07BB12)",C07BB12
+"Cardiovascular system (C);Beta blocking agents (C07);Beta blocking agents and thiazides (C07B);Beta blocking agents, selective, and thiazides (C07BB);Metoprolol and thiazides, combinations (C07BB52)",C07BB52
+Cardiovascular system (C);Beta blocking agents (C07);Beta blocking agents and thiazides (C07B);Alpha and beta blocking agents and thiazides (C07BG),C07BG
+Cardiovascular system (C);Beta blocking agents (C07);Beta blocking agents and thiazides (C07B);Alpha and beta blocking agents and thiazides (C07BG);Labetalol and thiazides (C07BG01),C07BG01
+Cardiovascular system (C);Beta blocking agents (C07);Beta blocking agents and other diuretics (C07C),C07C
+"Cardiovascular system (C);Beta blocking agents (C07);Beta blocking agents and other diuretics (C07C);Beta blocking agents, non-selective, and other diuretics (C07CA)",C07CA
+"Cardiovascular system (C);Beta blocking agents (C07);Beta blocking agents and other diuretics (C07C);Beta blocking agents, non-selective, and other diuretics (C07CA);Oxprenolol and other diuretics (C07CA02)",C07CA02
+"Cardiovascular system (C);Beta blocking agents (C07);Beta blocking agents and other diuretics (C07C);Beta blocking agents, non-selective, and other diuretics (C07CA);Pindolol and other diuretics (C07CA03)",C07CA03
+"Cardiovascular system (C);Beta blocking agents (C07);Beta blocking agents and other diuretics (C07C);Beta blocking agents, non-selective, and other diuretics (C07CA);Bopindolol and other diuretics (C07CA17)",C07CA17
+"Cardiovascular system (C);Beta blocking agents (C07);Beta blocking agents and other diuretics (C07C);Beta blocking agents, non-selective, and other diuretics (C07CA);Penbutolol and other diuretics (C07CA23)",C07CA23
+"Cardiovascular system (C);Beta blocking agents (C07);Beta blocking agents and other diuretics (C07C);Beta blocking agents, selective, and other diuretics (C07CB)",C07CB
+"Cardiovascular system (C);Beta blocking agents (C07);Beta blocking agents and other diuretics (C07C);Beta blocking agents, selective, and other diuretics (C07CB);Metoprolol and other diuretics (C07CB02)",C07CB02
+"Cardiovascular system (C);Beta blocking agents (C07);Beta blocking agents and other diuretics (C07C);Beta blocking agents, selective, and other diuretics (C07CB);Atenolol and other diuretics (C07CB03)",C07CB03
+"Cardiovascular system (C);Beta blocking agents (C07);Beta blocking agents and other diuretics (C07C);Beta blocking agents, selective, and other diuretics (C07CB);Atenolol and other diuretics, combinations (C07CB53)",C07CB53
+Cardiovascular system (C);Beta blocking agents (C07);Beta blocking agents and other diuretics (C07C);Alpha and beta blocking agents and other diuretics (C07CG),C07CG
+Cardiovascular system (C);Beta blocking agents (C07);Beta blocking agents and other diuretics (C07C);Alpha and beta blocking agents and other diuretics (C07CG);Labetalol and other diuretics (C07CG01),C07CG01
+"Cardiovascular system (C);Beta blocking agents (C07);Beta blocking agents, thiazides and other diuretics (C07D)",C07D
+"Cardiovascular system (C);Beta blocking agents (C07);Beta blocking agents, thiazides and other diuretics (C07D);Beta blocking agents, non-selective, thiazides and other diuretics (C07DA)",C07DA
+"Cardiovascular system (C);Beta blocking agents (C07);Beta blocking agents, thiazides and other diuretics (C07D);Beta blocking agents, non-selective, thiazides and other diuretics (C07DA);Timolol, thiazides and other diuretics (C07DA06)",C07DA06
+"Cardiovascular system (C);Beta blocking agents (C07);Beta blocking agents, thiazides and other diuretics (C07D);Beta blocking agents, selective, thiazides and other diuretics (C07DB)",C07DB
+"Cardiovascular system (C);Beta blocking agents (C07);Beta blocking agents, thiazides and other diuretics (C07D);Beta blocking agents, selective, thiazides and other diuretics (C07DB);Atenolol, thiazides and other diuretics (C07DB01)",C07DB01
+"Cardiovascular system (C);Beta blocking agents (C07);Beta blocking agents, other combinations (C07F)",C07F
+"Cardiovascular system (C);Beta blocking agents (C07);Beta blocking agents, other combinations (C07F);Beta blocking agents and calcium channel blockers (C07FB)",C07FB
+"Cardiovascular system (C);Beta blocking agents (C07);Beta blocking agents, other combinations (C07F);Beta blocking agents and calcium channel blockers (C07FB);Metoprolol and felodipine (C07FB02)",C07FB02
+"Cardiovascular system (C);Beta blocking agents (C07);Beta blocking agents, other combinations (C07F);Beta blocking agents and calcium channel blockers (C07FB);Atenolol and nifedipine (C07FB03)",C07FB03
+"Cardiovascular system (C);Beta blocking agents (C07);Beta blocking agents, other combinations (C07F);Beta blocking agents and calcium channel blockers (C07FB);Bisoprolol and amlodipine (C07FB07)",C07FB07
+"Cardiovascular system (C);Beta blocking agents (C07);Beta blocking agents, other combinations (C07F);Beta blocking agents and calcium channel blockers (C07FB);Nebivolol and amlodipine (C07FB12)",C07FB12
+"Cardiovascular system (C);Beta blocking agents (C07);Beta blocking agents, other combinations (C07F);Beta blocking agents and calcium channel blockers (C07FB);Metoprolol and amlodipine (C07FB13)",C07FB13
+"Cardiovascular system (C);Beta blocking agents (C07);Beta blocking agents, other combinations (C07F);Beta blocking agents, other combinations (C07FX)",C07FX
+"Cardiovascular system (C);Beta blocking agents (C07);Beta blocking agents, other combinations (C07F);Beta blocking agents, other combinations (C07FX);Propranolol and other combinations (C07FX01)",C07FX01
+"Cardiovascular system (C);Beta blocking agents (C07);Beta blocking agents, other combinations (C07F);Beta blocking agents, other combinations (C07FX);Sotalol and acetylsalicylic acid (C07FX02)",C07FX02
+"Cardiovascular system (C);Beta blocking agents (C07);Beta blocking agents, other combinations (C07F);Beta blocking agents, other combinations (C07FX);Metoprolol and acetylsalicylic acid (C07FX03)",C07FX03
+"Cardiovascular system (C);Beta blocking agents (C07);Beta blocking agents, other combinations (C07F);Beta blocking agents, other combinations (C07FX);Bisoprolol and acetylsalicylic acid (C07FX04)",C07FX04
+"Cardiovascular system (C);Beta blocking agents (C07);Beta blocking agents, other combinations (C07F);Beta blocking agents, other combinations (C07FX);Metoprolol and ivabradine (C07FX05)",C07FX05
+"Cardiovascular system (C);Beta blocking agents (C07);Beta blocking agents, other combinations (C07F);Beta blocking agents, other combinations (C07FX);Carvedilol and ivabradine (C07FX06)",C07FX06
+Cardiovascular system (C);Calcium channel blockers (C08),C08
+Cardiovascular system (C);Calcium channel blockers (C08);Selective calcium channel blockers with mainly vascular effects (C08C),C08C
+Cardiovascular system (C);Calcium channel blockers (C08);Selective calcium channel blockers with mainly vascular effects (C08C);Dihydropyridine derivatives (C08CA),C08CA
+Cardiovascular system (C);Calcium channel blockers (C08);Selective calcium channel blockers with mainly vascular effects (C08C);Dihydropyridine derivatives (C08CA);Amlodipine (C08CA01),C08CA01
+Cardiovascular system (C);Calcium channel blockers (C08);Selective calcium channel blockers with mainly vascular effects (C08C);Dihydropyridine derivatives (C08CA);Felodipine (C08CA02),C08CA02
+Cardiovascular system (C);Calcium channel blockers (C08);Selective calcium channel blockers with mainly vascular effects (C08C);Dihydropyridine derivatives (C08CA);Isradipine (C08CA03),C08CA03
+Cardiovascular system (C);Calcium channel blockers (C08);Selective calcium channel blockers with mainly vascular effects (C08C);Dihydropyridine derivatives (C08CA);Nicardipine (C08CA04),C08CA04
+Cardiovascular system (C);Calcium channel blockers (C08);Selective calcium channel blockers with mainly vascular effects (C08C);Dihydropyridine derivatives (C08CA);Nifedipine (C08CA05),C08CA05
+Cardiovascular system (C);Calcium channel blockers (C08);Selective calcium channel blockers with mainly vascular effects (C08C);Dihydropyridine derivatives (C08CA);Nimodipine (C08CA06),C08CA06
+Cardiovascular system (C);Calcium channel blockers (C08);Selective calcium channel blockers with mainly vascular effects (C08C);Dihydropyridine derivatives (C08CA);Nisoldipine (C08CA07),C08CA07
+Cardiovascular system (C);Calcium channel blockers (C08);Selective calcium channel blockers with mainly vascular effects (C08C);Dihydropyridine derivatives (C08CA);Nitrendipine (C08CA08),C08CA08
+Cardiovascular system (C);Calcium channel blockers (C08);Selective calcium channel blockers with mainly vascular effects (C08C);Dihydropyridine derivatives (C08CA);Lacidipine (C08CA09),C08CA09
+Cardiovascular system (C);Calcium channel blockers (C08);Selective calcium channel blockers with mainly vascular effects (C08C);Dihydropyridine derivatives (C08CA);Nilvadipine (C08CA10),C08CA10
+Cardiovascular system (C);Calcium channel blockers (C08);Selective calcium channel blockers with mainly vascular effects (C08C);Dihydropyridine derivatives (C08CA);Manidipine (C08CA11),C08CA11
+Cardiovascular system (C);Calcium channel blockers (C08);Selective calcium channel blockers with mainly vascular effects (C08C);Dihydropyridine derivatives (C08CA);Barnidipine (C08CA12),C08CA12
+Cardiovascular system (C);Calcium channel blockers (C08);Selective calcium channel blockers with mainly vascular effects (C08C);Dihydropyridine derivatives (C08CA);Lercanidipine (C08CA13),C08CA13
+Cardiovascular system (C);Calcium channel blockers (C08);Selective calcium channel blockers with mainly vascular effects (C08C);Dihydropyridine derivatives (C08CA);Cilnidipine (C08CA14),C08CA14
+Cardiovascular system (C);Calcium channel blockers (C08);Selective calcium channel blockers with mainly vascular effects (C08C);Dihydropyridine derivatives (C08CA);Benidipine (C08CA15),C08CA15
+Cardiovascular system (C);Calcium channel blockers (C08);Selective calcium channel blockers with mainly vascular effects (C08C);Dihydropyridine derivatives (C08CA);Clevidipine (C08CA16),C08CA16
+Cardiovascular system (C);Calcium channel blockers (C08);Selective calcium channel blockers with mainly vascular effects (C08C);Dihydropyridine derivatives (C08CA);Amlodipine and celecoxib (C08CA51),C08CA51
+"Cardiovascular system (C);Calcium channel blockers (C08);Selective calcium channel blockers with mainly vascular effects (C08C);Dihydropyridine derivatives (C08CA);Nifedipine, combinations (C08CA55)",C08CA55
+Cardiovascular system (C);Calcium channel blockers (C08);Selective calcium channel blockers with mainly vascular effects (C08C);Other selective calcium channel blockers with mainly vascular effects (C08CX),C08CX
+Cardiovascular system (C);Calcium channel blockers (C08);Selective calcium channel blockers with mainly vascular effects (C08C);Other selective calcium channel blockers with mainly vascular effects (C08CX);Mibefradil (C08CX01),C08CX01
+Cardiovascular system (C);Calcium channel blockers (C08);Selective calcium channel blockers with direct cardiac effects (C08D),C08D
+Cardiovascular system (C);Calcium channel blockers (C08);Selective calcium channel blockers with direct cardiac effects (C08D);Phenylalkylamine derivatives (C08DA),C08DA
+Cardiovascular system (C);Calcium channel blockers (C08);Selective calcium channel blockers with direct cardiac effects (C08D);Phenylalkylamine derivatives (C08DA);Verapamil (C08DA01),C08DA01
+Cardiovascular system (C);Calcium channel blockers (C08);Selective calcium channel blockers with direct cardiac effects (C08D);Phenylalkylamine derivatives (C08DA);Gallopamil (C08DA02),C08DA02
+"Cardiovascular system (C);Calcium channel blockers (C08);Selective calcium channel blockers with direct cardiac effects (C08D);Phenylalkylamine derivatives (C08DA);Verapamil, combinations (C08DA51)",C08DA51
+Cardiovascular system (C);Calcium channel blockers (C08);Selective calcium channel blockers with direct cardiac effects (C08D);Benzothiazepine derivatives (C08DB),C08DB
+Cardiovascular system (C);Calcium channel blockers (C08);Selective calcium channel blockers with direct cardiac effects (C08D);Benzothiazepine derivatives (C08DB);Diltiazem (C08DB01),C08DB01
+Cardiovascular system (C);Calcium channel blockers (C08);Non-selective calcium channel blockers (C08E),C08E
+Cardiovascular system (C);Calcium channel blockers (C08);Non-selective calcium channel blockers (C08E);Phenylalkylamine derivatives (C08EA),C08EA
+Cardiovascular system (C);Calcium channel blockers (C08);Non-selective calcium channel blockers (C08E);Phenylalkylamine derivatives (C08EA);Fendiline (C08EA01),C08EA01
+Cardiovascular system (C);Calcium channel blockers (C08);Non-selective calcium channel blockers (C08E);Phenylalkylamine derivatives (C08EA);Bepridil (C08EA02),C08EA02
+Cardiovascular system (C);Calcium channel blockers (C08);Non-selective calcium channel blockers (C08E);Other non-selective calcium channel blockers (C08EX),C08EX
+Cardiovascular system (C);Calcium channel blockers (C08);Non-selective calcium channel blockers (C08E);Other non-selective calcium channel blockers (C08EX);Lidoflazine (C08EX01),C08EX01
+Cardiovascular system (C);Calcium channel blockers (C08);Non-selective calcium channel blockers (C08E);Other non-selective calcium channel blockers (C08EX);Perhexiline (C08EX02),C08EX02
+Cardiovascular system (C);Calcium channel blockers (C08);Calcium channel blockers and diuretics (C08G),C08G
+Cardiovascular system (C);Calcium channel blockers (C08);Calcium channel blockers and diuretics (C08G);Calcium channel blockers and diuretics (C08GA),C08GA
+Cardiovascular system (C);Calcium channel blockers (C08);Calcium channel blockers and diuretics (C08G);Calcium channel blockers and diuretics (C08GA);Nifedipine and diuretics (C08GA01),C08GA01
+Cardiovascular system (C);Calcium channel blockers (C08);Calcium channel blockers and diuretics (C08G);Calcium channel blockers and diuretics (C08GA);Amlodipine and diuretics (C08GA02),C08GA02
+Cardiovascular system (C);Agents acting on the renin-angiotensin system (C09),C09
+"Cardiovascular system (C);Agents acting on the renin-angiotensin system (C09);Ace inhibitors, plain (C09A)",C09A
+"Cardiovascular system (C);Agents acting on the renin-angiotensin system (C09);Ace inhibitors, plain (C09A);Ace inhibitors, plain (C09AA)",C09AA
+"Cardiovascular system (C);Agents acting on the renin-angiotensin system (C09);Ace inhibitors, plain (C09A);Ace inhibitors, plain (C09AA);Captopril (C09AA01)",C09AA01
+"Cardiovascular system (C);Agents acting on the renin-angiotensin system (C09);Ace inhibitors, plain (C09A);Ace inhibitors, plain (C09AA);Enalapril (C09AA02)",C09AA02
+"Cardiovascular system (C);Agents acting on the renin-angiotensin system (C09);Ace inhibitors, plain (C09A);Ace inhibitors, plain (C09AA);Lisinopril (C09AA03)",C09AA03
+"Cardiovascular system (C);Agents acting on the renin-angiotensin system (C09);Ace inhibitors, plain (C09A);Ace inhibitors, plain (C09AA);Perindopril (C09AA04)",C09AA04
+"Cardiovascular system (C);Agents acting on the renin-angiotensin system (C09);Ace inhibitors, plain (C09A);Ace inhibitors, plain (C09AA);Ramipril (C09AA05)",C09AA05
+"Cardiovascular system (C);Agents acting on the renin-angiotensin system (C09);Ace inhibitors, plain (C09A);Ace inhibitors, plain (C09AA);Quinapril (C09AA06)",C09AA06
+"Cardiovascular system (C);Agents acting on the renin-angiotensin system (C09);Ace inhibitors, plain (C09A);Ace inhibitors, plain (C09AA);Benazepril (C09AA07)",C09AA07
+"Cardiovascular system (C);Agents acting on the renin-angiotensin system (C09);Ace inhibitors, plain (C09A);Ace inhibitors, plain (C09AA);Cilazapril (C09AA08)",C09AA08
+"Cardiovascular system (C);Agents acting on the renin-angiotensin system (C09);Ace inhibitors, plain (C09A);Ace inhibitors, plain (C09AA);Fosinopril (C09AA09)",C09AA09
+"Cardiovascular system (C);Agents acting on the renin-angiotensin system (C09);Ace inhibitors, plain (C09A);Ace inhibitors, plain (C09AA);Trandolapril (C09AA10)",C09AA10
+"Cardiovascular system (C);Agents acting on the renin-angiotensin system (C09);Ace inhibitors, plain (C09A);Ace inhibitors, plain (C09AA);Spirapril (C09AA11)",C09AA11
+"Cardiovascular system (C);Agents acting on the renin-angiotensin system (C09);Ace inhibitors, plain (C09A);Ace inhibitors, plain (C09AA);Moexipril (C09AA13)",C09AA13
+"Cardiovascular system (C);Agents acting on the renin-angiotensin system (C09);Ace inhibitors, plain (C09A);Ace inhibitors, plain (C09AA);Temocapril (C09AA14)",C09AA14
+"Cardiovascular system (C);Agents acting on the renin-angiotensin system (C09);Ace inhibitors, plain (C09A);Ace inhibitors, plain (C09AA);Zofenopril (C09AA15)",C09AA15
+"Cardiovascular system (C);Agents acting on the renin-angiotensin system (C09);Ace inhibitors, combinations (C09B)",C09B
+"Cardiovascular system (C);Agents acting on the renin-angiotensin system (C09);Ace inhibitors, combinations (C09B);Ace inhibitors and diuretics (C09BA)",C09BA
+"Cardiovascular system (C);Agents acting on the renin-angiotensin system (C09);Ace inhibitors, combinations (C09B);Ace inhibitors and diuretics (C09BA);Captopril and diuretics (C09BA01)",C09BA01
+"Cardiovascular system (C);Agents acting on the renin-angiotensin system (C09);Ace inhibitors, combinations (C09B);Ace inhibitors and diuretics (C09BA);Enalapril and diuretics (C09BA02)",C09BA02
+"Cardiovascular system (C);Agents acting on the renin-angiotensin system (C09);Ace inhibitors, combinations (C09B);Ace inhibitors and diuretics (C09BA);Lisinopril and diuretics (C09BA03)",C09BA03
+"Cardiovascular system (C);Agents acting on the renin-angiotensin system (C09);Ace inhibitors, combinations (C09B);Ace inhibitors and diuretics (C09BA);Perindopril and diuretics (C09BA04)",C09BA04
+"Cardiovascular system (C);Agents acting on the renin-angiotensin system (C09);Ace inhibitors, combinations (C09B);Ace inhibitors and diuretics (C09BA);Ramipril and diuretics (C09BA05)",C09BA05
+"Cardiovascular system (C);Agents acting on the renin-angiotensin system (C09);Ace inhibitors, combinations (C09B);Ace inhibitors and diuretics (C09BA);Quinapril and diuretics (C09BA06)",C09BA06
+"Cardiovascular system (C);Agents acting on the renin-angiotensin system (C09);Ace inhibitors, combinations (C09B);Ace inhibitors and diuretics (C09BA);Benazepril and diuretics (C09BA07)",C09BA07
+"Cardiovascular system (C);Agents acting on the renin-angiotensin system (C09);Ace inhibitors, combinations (C09B);Ace inhibitors and diuretics (C09BA);Cilazapril and diuretics (C09BA08)",C09BA08
+"Cardiovascular system (C);Agents acting on the renin-angiotensin system (C09);Ace inhibitors, combinations (C09B);Ace inhibitors and diuretics (C09BA);Fosinopril and diuretics (C09BA09)",C09BA09
+"Cardiovascular system (C);Agents acting on the renin-angiotensin system (C09);Ace inhibitors, combinations (C09B);Ace inhibitors and diuretics (C09BA);Moexipril and diuretics (C09BA13)",C09BA13
+"Cardiovascular system (C);Agents acting on the renin-angiotensin system (C09);Ace inhibitors, combinations (C09B);Ace inhibitors and diuretics (C09BA);Zofenopril and diuretics (C09BA15)",C09BA15
+"Cardiovascular system (C);Agents acting on the renin-angiotensin system (C09);Ace inhibitors, combinations (C09B);Ace inhibitors and calcium channel blockers (C09BB)",C09BB
+"Cardiovascular system (C);Agents acting on the renin-angiotensin system (C09);Ace inhibitors, combinations (C09B);Ace inhibitors and calcium channel blockers (C09BB);Enalapril and lercanidipine (C09BB02)",C09BB02
+"Cardiovascular system (C);Agents acting on the renin-angiotensin system (C09);Ace inhibitors, combinations (C09B);Ace inhibitors and calcium channel blockers (C09BB);Lisinopril and amlodipine (C09BB03)",C09BB03
+"Cardiovascular system (C);Agents acting on the renin-angiotensin system (C09);Ace inhibitors, combinations (C09B);Ace inhibitors and calcium channel blockers (C09BB);Perindopril and amlodipine (C09BB04)",C09BB04
+"Cardiovascular system (C);Agents acting on the renin-angiotensin system (C09);Ace inhibitors, combinations (C09B);Ace inhibitors and calcium channel blockers (C09BB);Ramipril and felodipine (C09BB05)",C09BB05
+"Cardiovascular system (C);Agents acting on the renin-angiotensin system (C09);Ace inhibitors, combinations (C09B);Ace inhibitors and calcium channel blockers (C09BB);Enalapril and nitrendipine (C09BB06)",C09BB06
+"Cardiovascular system (C);Agents acting on the renin-angiotensin system (C09);Ace inhibitors, combinations (C09B);Ace inhibitors and calcium channel blockers (C09BB);Ramipril and amlodipine (C09BB07)",C09BB07
+"Cardiovascular system (C);Agents acting on the renin-angiotensin system (C09);Ace inhibitors, combinations (C09B);Ace inhibitors and calcium channel blockers (C09BB);Trandolapril and verapamil (C09BB10)",C09BB10
+"Cardiovascular system (C);Agents acting on the renin-angiotensin system (C09);Ace inhibitors, combinations (C09B);Ace inhibitors and calcium channel blockers (C09BB);Delapril and manidipine (C09BB12)",C09BB12
+"Cardiovascular system (C);Agents acting on the renin-angiotensin system (C09);Ace inhibitors, combinations (C09B);Ace inhibitors, other combinations (C09BX)",C09BX
+"Cardiovascular system (C);Agents acting on the renin-angiotensin system (C09);Ace inhibitors, combinations (C09B);Ace inhibitors, other combinations (C09BX);Perindopril, amlodipine and indapamide (C09BX01)",C09BX01
+"Cardiovascular system (C);Agents acting on the renin-angiotensin system (C09);Ace inhibitors, combinations (C09B);Ace inhibitors, other combinations (C09BX);Perindopril and bisoprolol (C09BX02)",C09BX02
+"Cardiovascular system (C);Agents acting on the renin-angiotensin system (C09);Ace inhibitors, combinations (C09B);Ace inhibitors, other combinations (C09BX);Ramipril, amlodipine and hydrochlorothiazide (C09BX03)",C09BX03
+"Cardiovascular system (C);Agents acting on the renin-angiotensin system (C09);Ace inhibitors, combinations (C09B);Ace inhibitors, other combinations (C09BX);Perindopril, bisoprolol and amlodipine (C09BX04)",C09BX04
+"Cardiovascular system (C);Agents acting on the renin-angiotensin system (C09);Angiotensin ii receptor blockers (arbs), plain (C09C)",C09C
+"Cardiovascular system (C);Agents acting on the renin-angiotensin system (C09);Angiotensin ii receptor blockers (arbs), plain (C09C);Angiotensin ii receptor blockers (arbs), plain (C09CA)",C09CA
+"Cardiovascular system (C);Agents acting on the renin-angiotensin system (C09);Angiotensin ii receptor blockers (arbs), plain (C09C);Angiotensin ii receptor blockers (arbs), plain (C09CA);Losartan (C09CA01)",C09CA01
+"Cardiovascular system (C);Agents acting on the renin-angiotensin system (C09);Angiotensin ii receptor blockers (arbs), plain (C09C);Angiotensin ii receptor blockers (arbs), plain (C09CA);Eprosartan (C09CA02)",C09CA02
+"Cardiovascular system (C);Agents acting on the renin-angiotensin system (C09);Angiotensin ii receptor blockers (arbs), plain (C09C);Angiotensin ii receptor blockers (arbs), plain (C09CA);Valsartan (C09CA03)",C09CA03
+"Cardiovascular system (C);Agents acting on the renin-angiotensin system (C09);Angiotensin ii receptor blockers (arbs), plain (C09C);Angiotensin ii receptor blockers (arbs), plain (C09CA);Irbesartan (C09CA04)",C09CA04
+"Cardiovascular system (C);Agents acting on the renin-angiotensin system (C09);Angiotensin ii receptor blockers (arbs), plain (C09C);Angiotensin ii receptor blockers (arbs), plain (C09CA);Tasosartan (C09CA05)",C09CA05
+"Cardiovascular system (C);Agents acting on the renin-angiotensin system (C09);Angiotensin ii receptor blockers (arbs), plain (C09C);Angiotensin ii receptor blockers (arbs), plain (C09CA);Candesartan (C09CA06)",C09CA06
+"Cardiovascular system (C);Agents acting on the renin-angiotensin system (C09);Angiotensin ii receptor blockers (arbs), plain (C09C);Angiotensin ii receptor blockers (arbs), plain (C09CA);Telmisartan (C09CA07)",C09CA07
+"Cardiovascular system (C);Agents acting on the renin-angiotensin system (C09);Angiotensin ii receptor blockers (arbs), plain (C09C);Angiotensin ii receptor blockers (arbs), plain (C09CA);Olmesartan medoxomil (C09CA08)",C09CA08
+"Cardiovascular system (C);Agents acting on the renin-angiotensin system (C09);Angiotensin ii receptor blockers (arbs), plain (C09C);Angiotensin ii receptor blockers (arbs), plain (C09CA);Azilsartan medoxomil (C09CA09)",C09CA09
+"Cardiovascular system (C);Agents acting on the renin-angiotensin system (C09);Angiotensin ii receptor blockers (arbs), plain (C09C);Angiotensin ii receptor blockers (arbs), plain (C09CA);Fimasartan (C09CA10)",C09CA10
+"Cardiovascular system (C);Agents acting on the renin-angiotensin system (C09);Angiotensin ii receptor blockers (arbs), combinations (C09D)",C09D
+"Cardiovascular system (C);Agents acting on the renin-angiotensin system (C09);Angiotensin ii receptor blockers (arbs), combinations (C09D);Angiotensin ii receptor blockers (arbs) and diuretics (C09DA)",C09DA
+"Cardiovascular system (C);Agents acting on the renin-angiotensin system (C09);Angiotensin ii receptor blockers (arbs), combinations (C09D);Angiotensin ii receptor blockers (arbs) and diuretics (C09DA);Losartan and diuretics (C09DA01)",C09DA01
+"Cardiovascular system (C);Agents acting on the renin-angiotensin system (C09);Angiotensin ii receptor blockers (arbs), combinations (C09D);Angiotensin ii receptor blockers (arbs) and diuretics (C09DA);Eprosartan and diuretics (C09DA02)",C09DA02
+"Cardiovascular system (C);Agents acting on the renin-angiotensin system (C09);Angiotensin ii receptor blockers (arbs), combinations (C09D);Angiotensin ii receptor blockers (arbs) and diuretics (C09DA);Valsartan and diuretics (C09DA03)",C09DA03
+"Cardiovascular system (C);Agents acting on the renin-angiotensin system (C09);Angiotensin ii receptor blockers (arbs), combinations (C09D);Angiotensin ii receptor blockers (arbs) and diuretics (C09DA);Irbesartan and diuretics (C09DA04)",C09DA04
+"Cardiovascular system (C);Agents acting on the renin-angiotensin system (C09);Angiotensin ii receptor blockers (arbs), combinations (C09D);Angiotensin ii receptor blockers (arbs) and diuretics (C09DA);Candesartan and diuretics (C09DA06)",C09DA06
+"Cardiovascular system (C);Agents acting on the renin-angiotensin system (C09);Angiotensin ii receptor blockers (arbs), combinations (C09D);Angiotensin ii receptor blockers (arbs) and diuretics (C09DA);Telmisartan and diuretics (C09DA07)",C09DA07
+"Cardiovascular system (C);Agents acting on the renin-angiotensin system (C09);Angiotensin ii receptor blockers (arbs), combinations (C09D);Angiotensin ii receptor blockers (arbs) and diuretics (C09DA);Olmesartan medoxomil and diuretics (C09DA08)",C09DA08
+"Cardiovascular system (C);Agents acting on the renin-angiotensin system (C09);Angiotensin ii receptor blockers (arbs), combinations (C09D);Angiotensin ii receptor blockers (arbs) and diuretics (C09DA);Azilsartan medoxomil and diuretics (C09DA09)",C09DA09
+"Cardiovascular system (C);Agents acting on the renin-angiotensin system (C09);Angiotensin ii receptor blockers (arbs), combinations (C09D);Angiotensin ii receptor blockers (arbs) and diuretics (C09DA);Fimasartan and diuretics (C09DA10)",C09DA10
+"Cardiovascular system (C);Agents acting on the renin-angiotensin system (C09);Angiotensin ii receptor blockers (arbs), combinations (C09D);Angiotensin ii receptor blockers (arbs) and calcium channel blockers (C09DB)",C09DB
+"Cardiovascular system (C);Agents acting on the renin-angiotensin system (C09);Angiotensin ii receptor blockers (arbs), combinations (C09D);Angiotensin ii receptor blockers (arbs) and calcium channel blockers (C09DB);Valsartan and amlodipine (C09DB01)",C09DB01
+"Cardiovascular system (C);Agents acting on the renin-angiotensin system (C09);Angiotensin ii receptor blockers (arbs), combinations (C09D);Angiotensin ii receptor blockers (arbs) and calcium channel blockers (C09DB);Olmesartan medoxomil and amlodipine (C09DB02)",C09DB02
+"Cardiovascular system (C);Agents acting on the renin-angiotensin system (C09);Angiotensin ii receptor blockers (arbs), combinations (C09D);Angiotensin ii receptor blockers (arbs) and calcium channel blockers (C09DB);Telmisartan and amlodipine (C09DB04)",C09DB04
+"Cardiovascular system (C);Agents acting on the renin-angiotensin system (C09);Angiotensin ii receptor blockers (arbs), combinations (C09D);Angiotensin ii receptor blockers (arbs) and calcium channel blockers (C09DB);Irbesartan and amlodipine (C09DB05)",C09DB05
+"Cardiovascular system (C);Agents acting on the renin-angiotensin system (C09);Angiotensin ii receptor blockers (arbs), combinations (C09D);Angiotensin ii receptor blockers (arbs) and calcium channel blockers (C09DB);Losartan and amlodipine (C09DB06)",C09DB06
+"Cardiovascular system (C);Agents acting on the renin-angiotensin system (C09);Angiotensin ii receptor blockers (arbs), combinations (C09D);Angiotensin ii receptor blockers (arbs) and calcium channel blockers (C09DB);Candesartan and amlodipine (C09DB07)",C09DB07
+"Cardiovascular system (C);Agents acting on the renin-angiotensin system (C09);Angiotensin ii receptor blockers (arbs), combinations (C09D);Angiotensin ii receptor blockers (arbs) and calcium channel blockers (C09DB);Valsartan and lercanidipine (C09DB08)",C09DB08
+"Cardiovascular system (C);Agents acting on the renin-angiotensin system (C09);Angiotensin ii receptor blockers (arbs), combinations (C09D);Angiotensin ii receptor blockers (arbs) and calcium channel blockers (C09DB);Fimasartan and amlodipine (C09DB09)",C09DB09
+"Cardiovascular system (C);Agents acting on the renin-angiotensin system (C09);Angiotensin ii receptor blockers (arbs), combinations (C09D);Angiotensin ii receptor blockers (arbs), other combinations (C09DX)",C09DX
+"Cardiovascular system (C);Agents acting on the renin-angiotensin system (C09);Angiotensin ii receptor blockers (arbs), combinations (C09D);Angiotensin ii receptor blockers (arbs), other combinations (C09DX);Valsartan, amlodipine and hydrochlorothiazide (C09DX01)",C09DX01
+"Cardiovascular system (C);Agents acting on the renin-angiotensin system (C09);Angiotensin ii receptor blockers (arbs), combinations (C09D);Angiotensin ii receptor blockers (arbs), other combinations (C09DX);Valsartan and aliskiren (C09DX02)",C09DX02
+"Cardiovascular system (C);Agents acting on the renin-angiotensin system (C09);Angiotensin ii receptor blockers (arbs), combinations (C09D);Angiotensin ii receptor blockers (arbs), other combinations (C09DX);Olmesartan medoxomil, amlodipine and hydrochlorothiazide (C09DX03)",C09DX03
+"Cardiovascular system (C);Agents acting on the renin-angiotensin system (C09);Angiotensin ii receptor blockers (arbs), combinations (C09D);Angiotensin ii receptor blockers (arbs), other combinations (C09DX);Valsartan and sacubitril (C09DX04)",C09DX04
+"Cardiovascular system (C);Agents acting on the renin-angiotensin system (C09);Angiotensin ii receptor blockers (arbs), combinations (C09D);Angiotensin ii receptor blockers (arbs), other combinations (C09DX);Valsartan and nebivolol (C09DX05)",C09DX05
+"Cardiovascular system (C);Agents acting on the renin-angiotensin system (C09);Angiotensin ii receptor blockers (arbs), combinations (C09D);Angiotensin ii receptor blockers (arbs), other combinations (C09DX);Candesartan, amlodipine and hydrochlorothiazide (C09DX06)",C09DX06
+"Cardiovascular system (C);Agents acting on the renin-angiotensin system (C09);Angiotensin ii receptor blockers (arbs), combinations (C09D);Angiotensin ii receptor blockers (arbs), other combinations (C09DX);Irbesartan, amlodipine and hydrochlorothiazide (C09DX07)",C09DX07
+Cardiovascular system (C);Agents acting on the renin-angiotensin system (C09);Other agents acting on the renin-angiotensin system (C09X),C09X
+Cardiovascular system (C);Agents acting on the renin-angiotensin system (C09);Other agents acting on the renin-angiotensin system (C09X);Renin-inhibitors (C09XA),C09XA
+Cardiovascular system (C);Agents acting on the renin-angiotensin system (C09);Other agents acting on the renin-angiotensin system (C09X);Renin-inhibitors (C09XA);Remikiren (C09XA01),C09XA01
+Cardiovascular system (C);Agents acting on the renin-angiotensin system (C09);Other agents acting on the renin-angiotensin system (C09X);Renin-inhibitors (C09XA);Aliskiren (C09XA02),C09XA02
+Cardiovascular system (C);Agents acting on the renin-angiotensin system (C09);Other agents acting on the renin-angiotensin system (C09X);Renin-inhibitors (C09XA);Aliskiren and hydrochlorothiazide (C09XA52),C09XA52
+Cardiovascular system (C);Agents acting on the renin-angiotensin system (C09);Other agents acting on the renin-angiotensin system (C09X);Renin-inhibitors (C09XA);Aliskiren and amlodipine (C09XA53),C09XA53
+"Cardiovascular system (C);Agents acting on the renin-angiotensin system (C09);Other agents acting on the renin-angiotensin system (C09X);Renin-inhibitors (C09XA);Aliskiren, amlodipine and hydrochlorothiazide (C09XA54)",C09XA54
+Cardiovascular system (C);Lipid modifying agents (C10),C10
+"Cardiovascular system (C);Lipid modifying agents (C10);Lipid modifying agents, plain (C10A)",C10A
+"Cardiovascular system (C);Lipid modifying agents (C10);Lipid modifying agents, plain (C10A);Hmg coa reductase inhibitors (C10AA)",C10AA
+"Cardiovascular system (C);Lipid modifying agents (C10);Lipid modifying agents, plain (C10A);Hmg coa reductase inhibitors (C10AA);Simvastatin (C10AA01)",C10AA01
+"Cardiovascular system (C);Lipid modifying agents (C10);Lipid modifying agents, plain (C10A);Hmg coa reductase inhibitors (C10AA);Lovastatin (C10AA02)",C10AA02
+"Cardiovascular system (C);Lipid modifying agents (C10);Lipid modifying agents, plain (C10A);Hmg coa reductase inhibitors (C10AA);Pravastatin (C10AA03)",C10AA03
+"Cardiovascular system (C);Lipid modifying agents (C10);Lipid modifying agents, plain (C10A);Hmg coa reductase inhibitors (C10AA);Fluvastatin (C10AA04)",C10AA04
+"Cardiovascular system (C);Lipid modifying agents (C10);Lipid modifying agents, plain (C10A);Hmg coa reductase inhibitors (C10AA);Atorvastatin (C10AA05)",C10AA05
+"Cardiovascular system (C);Lipid modifying agents (C10);Lipid modifying agents, plain (C10A);Hmg coa reductase inhibitors (C10AA);Cerivastatin (C10AA06)",C10AA06
+"Cardiovascular system (C);Lipid modifying agents (C10);Lipid modifying agents, plain (C10A);Hmg coa reductase inhibitors (C10AA);Rosuvastatin (C10AA07)",C10AA07
+"Cardiovascular system (C);Lipid modifying agents (C10);Lipid modifying agents, plain (C10A);Hmg coa reductase inhibitors (C10AA);Pitavastatin (C10AA08)",C10AA08
+"Cardiovascular system (C);Lipid modifying agents (C10);Lipid modifying agents, plain (C10A);Fibrates (C10AB)",C10AB
+"Cardiovascular system (C);Lipid modifying agents (C10);Lipid modifying agents, plain (C10A);Fibrates (C10AB);Clofibrate (C10AB01)",C10AB01
+"Cardiovascular system (C);Lipid modifying agents (C10);Lipid modifying agents, plain (C10A);Fibrates (C10AB);Bezafibrate (C10AB02)",C10AB02
+"Cardiovascular system (C);Lipid modifying agents (C10);Lipid modifying agents, plain (C10A);Fibrates (C10AB);Gemfibrozil (C10AB04)",C10AB04
+"Cardiovascular system (C);Lipid modifying agents (C10);Lipid modifying agents, plain (C10A);Fibrates (C10AB);Fenofibrate (C10AB05)",C10AB05
+"Cardiovascular system (C);Lipid modifying agents (C10);Lipid modifying agents, plain (C10A);Fibrates (C10AB);Ciprofibrate (C10AB08)",C10AB08
+"Cardiovascular system (C);Lipid modifying agents (C10);Lipid modifying agents, plain (C10A);Fibrates (C10AB);Choline fenofibrate (C10AB11)",C10AB11
+"Cardiovascular system (C);Lipid modifying agents (C10);Lipid modifying agents, plain (C10A);Nicotinic acid and derivatives (C10AD)",C10AD
+"Cardiovascular system (C);Lipid modifying agents (C10);Lipid modifying agents, plain (C10A);Nicotinic acid and derivatives (C10AD);Nicotinic acid (C10AD02)",C10AD02
+"Cardiovascular system (C);Lipid modifying agents (C10);Lipid modifying agents, plain (C10A);Nicotinic acid and derivatives (C10AD);Nicotinic acid, combinations (C10AD52)",C10AD52
+"Cardiovascular system (C);Lipid modifying agents (C10);Lipid modifying agents, plain (C10A);Other lipid modifying agents (C10AX)",C10AX
+"Cardiovascular system (C);Lipid modifying agents (C10);Lipid modifying agents, plain (C10A);Other lipid modifying agents (C10AX);Dextrothyroxine (C10AX01)",C10AX01
+"Cardiovascular system (C);Lipid modifying agents (C10);Lipid modifying agents, plain (C10A);Other lipid modifying agents (C10AX);Probucol (C10AX02)",C10AX02
+"Cardiovascular system (C);Lipid modifying agents (C10);Lipid modifying agents, plain (C10A);Other lipid modifying agents (C10AX);Meglutol (C10AX05)",C10AX05
+"Cardiovascular system (C);Lipid modifying agents (C10);Lipid modifying agents, plain (C10A);Other lipid modifying agents (C10AX);Ezetimibe (C10AX09)",C10AX09
+"Cardiovascular system (C);Lipid modifying agents (C10);Lipid modifying agents, plain (C10A);Other lipid modifying agents (C10AX);Lomitapide (C10AX12)",C10AX12
+"Cardiovascular system (C);Lipid modifying agents (C10);Lipid modifying agents, plain (C10A);Other lipid modifying agents (C10AX);Evolocumab (C10AX13)",C10AX13
+"Cardiovascular system (C);Lipid modifying agents (C10);Lipid modifying agents, plain (C10A);Other lipid modifying agents (C10AX);Alirocumab (C10AX14)",C10AX14
+"Cardiovascular system (C);Lipid modifying agents (C10);Lipid modifying agents, plain (C10A);Other lipid modifying agents (C10AX);Bempedoic acid (C10AX15)",C10AX15
+"Cardiovascular system (C);Lipid modifying agents (C10);Lipid modifying agents, combinations (C10B)",C10B
+"Cardiovascular system (C);Lipid modifying agents (C10);Lipid modifying agents, combinations (C10B);Hmg coa reductase inhibitors in combination with other lipid modifying agents (C10BA)",C10BA
+"Cardiovascular system (C);Lipid modifying agents (C10);Lipid modifying agents, combinations (C10B);Hmg coa reductase inhibitors in combination with other lipid modifying agents (C10BA);Lovastatin and nicotinic acid (C10BA01)",C10BA01
+"Cardiovascular system (C);Lipid modifying agents (C10);Lipid modifying agents, combinations (C10B);Hmg coa reductase inhibitors in combination with other lipid modifying agents (C10BA);Simvastatin and ezetimibe (C10BA02)",C10BA02
+"Cardiovascular system (C);Lipid modifying agents (C10);Lipid modifying agents, combinations (C10B);Hmg coa reductase inhibitors in combination with other lipid modifying agents (C10BA);Pravastatin and fenofibrate (C10BA03)",C10BA03
+"Cardiovascular system (C);Lipid modifying agents (C10);Lipid modifying agents, combinations (C10B);Hmg coa reductase inhibitors in combination with other lipid modifying agents (C10BA);Simvastatin and fenofibrate (C10BA04)",C10BA04
+"Cardiovascular system (C);Lipid modifying agents (C10);Lipid modifying agents, combinations (C10B);Hmg coa reductase inhibitors in combination with other lipid modifying agents (C10BA);Atorvastatin and ezetimibe (C10BA05)",C10BA05
+"Cardiovascular system (C);Lipid modifying agents (C10);Lipid modifying agents, combinations (C10B);Hmg coa reductase inhibitors in combination with other lipid modifying agents (C10BA);Rosuvastatin and ezetimibe (C10BA06)",C10BA06
+"Cardiovascular system (C);Lipid modifying agents (C10);Lipid modifying agents, combinations (C10B);Hmg coa reductase inhibitors in combination with other lipid modifying agents (C10BA);Rosuvastatin and fenofibrate (C10BA09)",C10BA09
+"Cardiovascular system (C);Lipid modifying agents (C10);Lipid modifying agents, combinations (C10B);Hmg coa reductase inhibitors, other combinations (C10BX)",C10BX
+"Cardiovascular system (C);Lipid modifying agents (C10);Lipid modifying agents, combinations (C10B);Hmg coa reductase inhibitors, other combinations (C10BX);Simvastatin and acetylsalicylic acid (C10BX01)",C10BX01
+"Cardiovascular system (C);Lipid modifying agents (C10);Lipid modifying agents, combinations (C10B);Hmg coa reductase inhibitors, other combinations (C10BX);Pravastatin and acetylsalicylic acid (C10BX02)",C10BX02
+"Cardiovascular system (C);Lipid modifying agents (C10);Lipid modifying agents, combinations (C10B);Hmg coa reductase inhibitors, other combinations (C10BX);Atorvastatin and amlodipine (C10BX03)",C10BX03
+"Cardiovascular system (C);Lipid modifying agents (C10);Lipid modifying agents, combinations (C10B);Hmg coa reductase inhibitors, other combinations (C10BX);Simvastatin, acetylsalicylic acid and ramipril (C10BX04)",C10BX04
+"Cardiovascular system (C);Lipid modifying agents (C10);Lipid modifying agents, combinations (C10B);Hmg coa reductase inhibitors, other combinations (C10BX);Rosuvastatin and acetylsalicylic acid (C10BX05)",C10BX05
+"Cardiovascular system (C);Lipid modifying agents (C10);Lipid modifying agents, combinations (C10B);Hmg coa reductase inhibitors, other combinations (C10BX);Atorvastatin, acetylsalicylic acid and ramipril (C10BX06)",C10BX06
+"Cardiovascular system (C);Lipid modifying agents (C10);Lipid modifying agents, combinations (C10B);Hmg coa reductase inhibitors, other combinations (C10BX);Rosuvastatin, amlodipine and lisinopril (C10BX07)",C10BX07
+"Cardiovascular system (C);Lipid modifying agents (C10);Lipid modifying agents, combinations (C10B);Hmg coa reductase inhibitors, other combinations (C10BX);Atorvastatin and acetylsalicylic acid (C10BX08)",C10BX08
+"Cardiovascular system (C);Lipid modifying agents (C10);Lipid modifying agents, combinations (C10B);Hmg coa reductase inhibitors, other combinations (C10BX);Rosuvastatin and amlodipine (C10BX09)",C10BX09
+"Cardiovascular system (C);Lipid modifying agents (C10);Lipid modifying agents, combinations (C10B);Hmg coa reductase inhibitors, other combinations (C10BX);Rosuvastatin and valsartan (C10BX10)",C10BX10
+"Cardiovascular system (C);Lipid modifying agents (C10);Lipid modifying agents, combinations (C10B);Hmg coa reductase inhibitors, other combinations (C10BX);Atorvastatin, amlodipine and perindopril (C10BX11)",C10BX11
+"Cardiovascular system (C);Lipid modifying agents (C10);Lipid modifying agents, combinations (C10B);Hmg coa reductase inhibitors, other combinations (C10BX);Atorvastatin, acetylsalicylic acid and perindopril (C10BX12)",C10BX12
+"Cardiovascular system (C);Lipid modifying agents (C10);Lipid modifying agents, combinations (C10B);Hmg coa reductase inhibitors, other combinations (C10BX);Rosuvastatin, perindopril and indapamide (C10BX13)",C10BX13
+"Cardiovascular system (C);Lipid modifying agents (C10);Lipid modifying agents, combinations (C10B);Hmg coa reductase inhibitors, other combinations (C10BX);Rosuvastatin, amlodipine and perindopril (C10BX14)",C10BX14
+"Cardiovascular system (C);Lipid modifying agents (C10);Lipid modifying agents, combinations (C10B);Hmg coa reductase inhibitors, other combinations (C10BX);Atorvastatin and perindopril (C10BX15)",C10BX15
+"Cardiovascular system (C);Lipid modifying agents (C10);Lipid modifying agents, combinations (C10B);Hmg coa reductase inhibitors, other combinations (C10BX);Rosuvastatin and fimasartan (C10BX16)",C10BX16
+"Cardiovascular system (C);Lipid modifying agents (C10);Lipid modifying agents, combinations (C10B);Hmg coa reductase inhibitors, other combinations (C10BX);Rosuvastatin and ramipril (C10BX17)",C10BX17
