@@ -48,313 +48,1017 @@
     <script type="text/javascript">//<![CDATA[
 
 
-var width = 1000,
-    height = 1500;
+var width = 1100,
+  height = 3500;
 
 var cluster = d3.layout.cluster()
-    .size([height, width - 400]);
+  .size([height, width - 620]);
 
 var diagonal = d3.svg.diagonal()
-    .projection(function (d) {
+  .projection(function(d) {
     return [d.y, d.x];
-});
+  });
 
 var svg = d3.select("body").append("svg")
-    .attr("width", width)
-    .attr("height", height)
-    .append("g")
-    .attr("transform", "translate(115,0)");
+  .attr("width", width)
+  .attr("height", height)
+  .append("g")
+  .attr("transform", "translate(115,0)");
 
-    var root = getData(),
-        nodes = cluster.nodes(root),
-        links = cluster.links(nodes);
+var root = getData(),
+  nodes = cluster.nodes(root),
+  links = cluster.links(nodes);
 
-    var link = svg.selectAll(".link")
-        .data(links)
-       .enter()
-        .append("path")
-        .attr("class", "link_continuous")
-        .attr("d", diagonal);
+var link = svg.selectAll(".link")
+  .data(links)
+  .enter()
+  .append("path")
+  .attr("class", "link_continuous")
+  .attr("d", diagonal)
+  .style("stroke", function(d) {
+    return d.target.level;
+  });
 
-    var node = svg.selectAll(".node")
-        .data(nodes)
-       .enter()
-        .append("g")
-        .attr("class", "node")
-        .attr("transform", function (d) {
-        return "translate(" + d.y + "," + d.x + ")";
-    })
+var node = svg.selectAll(".node")
+  .data(nodes)
+  .enter()
+  .append("g")
+  .attr("class", "node")
+  .attr("transform", function(d) {
+    return "translate(" + d.y + "," + d.x + ")";
+  })
 
-    node.append("circle")
-        .attr("r", 4.5);
+node.append("circle")
+  .attr("r", 4.5);
 
-    node.append("text")
-        .attr("dx", function (d) { return d.children ? -8 : 8; })
-        .attr("dy", 3)
-        .style("text-anchor", function (d) { return d.children ? "end" : "start"; })
-        .text(function (d) { return d.name; });
+node.append("text")
+  .attr("dx", function(d) {
+    return d.children ? -8 : 8;
+  })
+  .attr("dy", 3)
+  .style("text-anchor", function(d) {
+    return d.children ? "end" : "start";
+  })
+  .text(function(d) {
+    return d.name;
+  });
 
 d3.select(self.frameElement).style("height", height + "px");
 
 
 function getData() {
-    return {
-        "name": "Oxydative Stress",
-            "children": [
-             						// Initiation -----------------------------------------
-            						{
-                      	"name":"Initiation of Oxidative Stress",
-                      	"children": [
-                        						// ROS--------------------------
-                        						{
-                                    "name": "Reactive Oxygen Species (ROS)",
-                                    "children": [
-                                                {"name": "Superoxides"
-                                             }, {"name": "Hydrogen Peroxide"
-                                             }, {"name": "Hydroxyl Radical"
-                                             }, {"name": "Singlet Oxygen"
-                                            // }, {"name": "Alkoxyl radicals"
-                                             //}, {"name": "Hydroperoxyl radical(HO2.)"
-                                             }, {"name": "Lipid Peroxides"
-                                             }, {"name": "Epoxy Compounds"
-                                             }, {"name": "Ozone"}
-                                            
-                                    						]       
-        														},
-                                    // RON -------------------------------
-                                    {
-                                    "name": "Reactive Nitrogen Species (RON)",
-                                        "children": [
-                                                    {"name": "Nitric Oxide"
-                                                 }, {"name": "Nitrogen Dioxide"
-                                                 }, {"name": "Peroxynitrous Acid"}
-                                                		]
+  return {
+    "name": "CRC",
+    "children": [{
+        //calcium channels-----------------------------------------
+        "name": "Calcium ion channels",
        
-            												},
-                                  	// Lipid peroxide radicals---------------------
-                                  //  {
-                                   // "name": "Lipid peroxide radicals",
-                                     //   "children": [
-                                      //              {"name": "Lipid Peroxidation"
-                                        //         }, {"name": "Lipid Peroxides"
-                                        //         }, {"name": "Fatty Acids, Unsaturated"
-                                       //          }, {"name": "Superoxides"}
-                                       //         		]
-       
-            											//	},
-                                    //Reactive Aldehydes-----------------
-                                    {
-                                    "name": "Reactive Aldehydes",
-                                        "children": [
-                                                    {"name": "Aldehydes"
-                                                 }, {"name": "Malondialdehyde"}
-                                                 
-                                                  
-                                                		]
-       
-            												},
-                                    //-------------------------
-                                  
-                                  ]
-         
-       								},
-        //Modulation ----------------------------
-        							{
-                      	"name":"Modulation of Oxidative Stress",
-                      	"children": [
-                        						//Redox Metabolites-------------------------
-                        						{
-                                    "name": "Redox Metabolites",
-                                    "children": [
-                                                {"name": "Cysteine"
-                                             }, {"name": "Homocysteine"
-                                             }, {"name": "Glutathione"
-                                             }, {"name":"NAD"
-                                             }, {"name": "NADP"
-                                             }, {"name":"Flavin-Adenine Dinucleotide"
-                                             }, {"name":"5,10-Methylenetetrahydrofolate Reductase (FADH2)"
-                                             }, {"name": "Cystine"
-                                             }, {"name": "Glutathione Disulfide"
-                                             }, {"name": "Quinones"
-                                             }, {"name": "Disulfides"
-                                             }, {"name": "Fatty acids"
-                                             }, {"name": "Proline"
-                                             }, {"name": "Glycolates"
-                                             }, {"name":"Uric acid"
-                                             }, {"name": "D-aspartate"
-                                             }, {"name":"Xanthine" }
-                                    						]       
-        														},
-                                    
-                                    
-                                    //Antioxidants--------------------------------
-                                  {
-                                    "name": "Antioxidants",
-                                        "children": [
-                                                    {"name": "Vitamin E"
-                                                 }, {"name": "Tocopherols"
-                                                 }, {"name": "Tocotrienols"
-                                                 }, {"name": "Vitamin A"
-                                                 }, {"name": "Ascorbic Acid"                                           
-                                                 }, {"name": "Carotenoids"
-                                                 }, {"name": "Beta Carotene"
-                                                 }, {"name": "Lutein"
-                                                 }, {"name": "Manganese"
-                                                 }, {"name": "Melatonin"
-                                                 }, {"name": "Zeaxanthins"
-                                                 }, {"name": "Lycopene"}
-                                                		]
-       
-            											},
-                                    //Antioxidant Enzymes------------------------------
-                                    {
-                                    "name": "Antioxidant Enzymes",
-                                        "children": [    
-                                                    
-                                                 
-                                                  {"name": "Glutathione Transferases","children":[
-                                                             
-                                                             {"name":"Glutathione S-transferase A1"},
-                                                             {"name":"Glutathione S-transferase A2"},
-                                                             {"name":"Glutathione S-transferase A3"},
-                                                             {"name":"Glutathione S-transferase A4"},
-                                                             {"name":"Glutathione S-transferase Kappa 1"},
-                                                             {"name":"Glutathione S-transferase Mu 1"},
-                                                             {"name":"Glutathione S-transferase Mu 2"},
-                                                             {"name":"Glutathione S-transferase Mu 3"},
-                                                             {"name":"Glutathione S-transferase Mu 4"},
-                                                             {"name":"Glutathione S-transferase Mu 5"},
-                                                             {"name":"Glutathione S-transferase omega-1"},
-                                                             {"name":"Glutathione S-transferase omega-2"},
-                                                             {"name":"Glutathione S-transferase theta-1"},
-                                                             {"name":"Glutathione S-transferase theta-2"},
-                                                             {"name":"Glutathione S-transferase theta-2B"},
-                                                            
-                                                             
-                                                             {"name":"Glutathione S-transferase P"},
-                                                             
-                                                           
-                                                          
-                                                            
-                                                            
-                                                             
-                                                             
-                                                             {"name":"Glutathione S-Transferase pi"},
-                                                             ]},
-                                                 {"name": "Glutamate-Cysteine Ligase","children":[
-                                                           {"name":"Glutamate-cysteine ligase catalytic subunit"},
-                                                           {"name":"Glutamate-cysteine ligase regulatory subunit"},
-                                                 ]
-                                                 
-                                                 }, {"name": "Superoxide Dismutase","children":[
-                                                    {"name": "Superoxide dismutase [Cu-Zn]"},
-                                                    {"name": "Superoxide dismutase [Mn], mitochondrial"},
-                                                    
-                                                 ]
-                                                 }, {"name": "Methionine Sulfoxide Reductases","children":[
-                                                           {"name":"Methionine-R-sulfoxide reductase B1"},
-                                                           {"name":"Methionine-R-sulfoxide reductase B2"},
-                                                           {"name":"Methionine-R-sulfoxide reductase B3"},
-                                                 ]
-                                                 
-                                                 }, {"name": "Peroxiredoxins","children":[
-                                                             {"name":"Peroxiredoxin-1"},
-                                                             {"name":"Peroxiredoxin-2"},
-                                                             {"name":"Peroxiredoxin-6"},
-                                                             {"name":"Peroxiredoxin-5, mitochondrial"},
-                                                             {"name":"Peroxiredoxin-4"},
-                                                             {"name":"Peroxiredoxin-like 2A"},]
-                                                             
-                                                             
-                                                 }, {"name": "NAD(P)H Dehydrogenase (Quinone)"
-                                                 }, {"name": "Glutathione Reductase"           
-                                                 }, {"name": "Catalase"  
-                                                 }, {"name": "Isoenzymes"
-                                                 }, {"name": "Glutathione Peroxidase"            
-                                                 }, {"name": "Glutaredoxins"
-                                                 }, {"name": "Thioredoxins"   
-                                                 }, {"name": "Thioredoxin Reductases" 
-                                                 }, {"name": "Oxidoreductases"
-                                                 }, {"name": "Protein Disulfide Reductase (Glutathione)"
-                                                 }, {"name": "Procollagen-Proline Dioxygenase"}
-                                              
-                                                 
-                                                		]
-       
-            											},
-                                  //Redox Regulating Proteins----------------------------------
-                                  {
-                                    "name": "Redox Regulating Proteins",
-                                        "children": [  
-                                                    {"name": "MafK Transcription Factor"
-                                                 }, {"name": "Ribonucleoprotein, U5 Small Nuclear"
-                                                 }, {"name": "Nuclear Proteins"
-                                                 }, {"name": "Cell Cycle Proteins"
-                                                 }, {"name": "Carrier Proteins"
-                                                 }, {"name": "Membrane Proteins"
-                                                 }, {"name": "Antigens, Neoplasm"
-                                                 }, {"name": "Membrane Glycoproteins"
-                                                 }, {"name": "Protein Disulfide-Isomerases"
-                                                 }, {"name": "DNA-Binding Proteins"}
-                                                  
-                                                		]
-       
-            											},
-                                  
-                                  ]
-         
-       									 },
-        
-        
-        
-        
-        //Outcomes ----------------------------------
-        
-        {
-                      	"name":"Outcomes of Oxidative Stress",
-                      	"children": [
-                        					//Protein Oxidation (O-PTMs)-------------------------
-                        						{
-                                    "name": "Protein Oxidation (O-PTMs)",
-                                    "children": [
-                                                {"name": "Protein Carbonylation"},
-                                                {"name": "Hydroxylation"},
-                                    						]       
-        														},
-                                    //Lipid Peroxidation Products----------------------
-                                    {
-                                    "name": "Lipid Peroxidation Products",
-                                        "children": [
-                                                    {"name": "Malondialdehyde"},
-                                                    {"name": "Aldehydes"}
-                                                		]
-       
-            											},
-                                  //Oxidative DNA Damage-------------------------
-                        						{
-                                    "name": "Oxidative DNA Damage",
-                                    "children": [
-                                                {"name": "Deoxyguanosine"}
-                                    						]       
-        														},
-                                    //Nitrative DNA Damage----------------------
-                                    {
-                                    "name": "Nitrative DNA Damage",
-                                        "children": [
-                                                    {"name": "Guanine"
-                                                 }]
-       
-            												}
-                                  	]
-         
-        },
-        
-        //-----------------------------
-        
-        
+        "children": [{
+            "name": "Ca voltage-gated subunits",
+          
+            "children": [{
+                "name": "Ca voltage gated channel alpha 1 subuinits",
+                "children": [{
+                    "name": "Ca voltage-gated channel subunit alpha1 C (Q13936)"
+                  },
+                  {
+                    "name": "Ca voltage-gated channel subunit alpha1 H (O95180)"
+                  },
+                  {
+                    "name": "Ca voltage-gated channel subunit alpha1 G (O43497)"
+                  },
+                  {
+                    "name": "Ca voltage-gated channel subunit alpha1 D (Q01668)"
+                  },
+                  {
+                    "name": "Ca voltage-gated channel subunit alpha1 C (E9PDI6)"
+                  },
+                  {
+                    "name": "Ca voltage-gated channel subunit alpha1 C (F5H522)"
+                  },
+                  {
+                    "name": "Ca voltage-gated channel subunit alpha1 C (A0A0A0MSA1)"
+                  },
+                  {
+                    "name": "Ca voltage-gated channel subunit alpha1 C (F5H638)"
+                  },
+                  {
+                    "name": "Ca voltage-gated channel subunit alpha1 C (F5GY28)"
+                  },
+                  {
+                    "name": "Ca voltage-gated channel subunit alpha1 C (A0A0A0MR67)"
+                  }
+                ]
+              },
+              {
+                "name": "Ca channel auxiliary gamma subunits",
+                "children": [{
+                    "name": "Ca voltage-gated channel auxiliary subunit gamma 7 (P62955)"
+                  },
+                  {
+                    "name": "Ca voltage-gated channel auxiliary subunit gamma 8 (Q8WXS5)"
+                  },
+                  {
+                    "name": "Ca voltage-gated channel auxiliary subunit gamma 4 (Q9UBN1)"
+                  },
+                  {
+                    "name": "Ca voltage-gated channel auxiliary subunit gamma 6 (Q9BXT2)"
+                  }
+                ]
+              },
+              {
+                "name": "Ca voltage-gated channel auxiliary beta subunits",
+                "children": [{
+                    "name": "Ca voltage-gated channel auxiliary subunit beta 2 (Q08289)"
+                  },
+                  {
+                    "name": "Ca voltage-gated channel auxiliary subunit beta 1 (Q02641)"
+                  }
+                ]
+              },
+              {
+                "name": "Ca voltage-gated channel auxiliary subunit alpha2delta subunits",
+                "children": [{
+                    "name": "Ca voltage-gated channel auxiliary subunit alpha2delta 1 (P54289)"
+                  },
+                  {
+                    "name": "Ca voltage-gated channel auxiliary subunit alpha2delta 2 (Q9NY47)",
+                  }
+                ]
+              }
+            ],
+          },
+
+
+          {
+            "name": "Ryanodine receptors",
+            "children": [{
+                "name": "ryanodine receptor 1 (P21817)",
+              },
+              {
+                "name": "ryanodine receptor 2 (Q92736)",
+              }
+            ]
+
+          },
+          {
+            "name": "Two pore segment channels",
+            "children": [{
+              "name": "two pore segment channel 1 (Q9ULQ1)"
+            }]
+
+          }
+
+
         ]
-    };
+      },
+
+      //potasium channels----------------------------------------------------------------        
+      {
+        "name": "Potassium channels",
+        "children": [{
+            "name": "K-Ca activated channels",
+            "children": [{
+                "name": "K-Ca activated channel subfamily M alpha 1 (Q12791)"
+              },
+              {
+                "name": "K-Ca activated channel subfamily M regulatory beta subunits",
+                "children": [{
+                    "name": "K-Ca activated channel subfamily M regulatory beta subunit 3 (Q9NPA1)"
+                  },
+                  {
+                    "name": "K-Ca activated channel subfamily M regulatory beta subunit 2 (Q9Y691)"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "K voltage-gated channel regulatory subunits",
+            "children": [{
+                "name": "K voltage-gated channel interacting protein 2 (Q9NS61)"
+              },
+              {
+                "name": "K voltage-gated channel subfamily A member 5 (P22460)"
+              },
+              {
+                "name": "K voltage-gated channel subfamily B member 1 (Q14721)"
+              }
+            ]
+
+          },
+
+          {
+            "name": "K two pore domain channel subfamily K",
+            "children": [{
+              "name": "K two pore domain channel subfamily K member 3 (O14649)"
+            }]
+          },
+
+        ],
+      },
+
+      //sodium channel---------------------------------------------------------------               
+      {
+        "name": "Na channels",
+        "children": [{
+            "name": "Na voltage-gated channel alpha subunits",
+            "children": [{
+              "name": "Na voltage-gated channel alpha subunit 5 (Q14524)"
+            }, ]
+          }
+
+        ],
+      },
+
+      //cloride channels----------------------------------------------------------    
+      {
+        "name": "Cloride channels",
+        "children": [{
+            "name": "Ca activated Cl channel subunits",
+            "children": [{
+                "name": "tweety family member 3 (Q9C0H2)"
+              },
+              {
+                "name": "tweety family member 2 (Q9BSA4)"
+              }
+            ]
+          },
+          {
+            "name": "Chloride intracellular channels",
+            "children": [{
+                "name": "chloride intracellular channel 4 (Q9Y696)"
+              },
+              {
+                "name": "chloride intracellular channel 2 (O15247)"
+              }
+            ]
+          }
+
+
+        ],
+      },
+
+
+      //Nonselective channels---------------------------        
+
+      {
+        "name": "Nonselective channels",
+       
+        "children": [{
+          "name": "Transient receptor potential cation channels", 
+          "children": [{
+              "name": "transient receptor potential cation channel subfamily M member 4  (Q8TD43)"
+            },
+            {
+              "name": "transient receptor potential cation channel subfamily M member 2 (O94759)",
+              
+            },
+            {
+              "name": "Short transient receptor potential channel 4 (Q9UBN4)"
+            },
+            {
+              "name": "Polycystic kidney disease protein 1-like 1 (Q8TDX9)"
+            },
+            {
+              "name": "polycystin 2, transient receptor potential cation channel(Q13563)"
+            },
+            {
+              "name": "polycystin 1 like 3, transient receptor potential channel interacting(Q7Z443)"
+            },
+            {
+              "name": "polycystin 2 like 1, transient receptor potential cation channel(Q9P0L9)"
+            },
+            {
+              "name": "Polycystic kidney disease protein 1-like 2(Q7Z442)"
+            },
+          ]
+        }, ],
+      },
+
+
+
+
+
+
+
+
+      // ATPases Ca transporting----------------------------------    
+
+
+      {
+        "name": "ATPases Ca transporting",
+        "children": [{
+            "name": "ATPase sarcoplasmic/endoplasmic reticulum Ca transporting 2 (P16615)",
+            
+          },
+          {
+            "name": "ATPase plasma membrane Ca transporting 4 (P23634)"
+          },
+        ],
+      },
+
+
+
+
+
+      //Calcium sensing receptors----------------------------------  
+
+
+      {
+        "name": "Ca sensing receptors",
+        "children": [{
+          "name": "Ca sensing receptor (P41180)"
+        }],
+      },
+
+
+      //Actinins----------------------------------   
+
+
+      {
+        "name": "Actins",
+        "children": [{
+            "name": "actinin alpha 1 (P12814)"
+          },
+          {
+            "name": "actinin alpha 2 (P35609)"
+          },
+        ],
+      },
+
+
+      //Inositol 1,4,5-triphosphate receptors----------------------------------   
+
+
+      {
+        "name": "Inositol 1,4,5-triphosphate receptors",
+        "children": [
+          {
+            "name": "inositol 1,4,5-trisphosphate receptor type 2 (Q14571)",
+          },
+        ],
+      },
+
+
+
+
+      //Solute carriers----------------------------------   
+
+
+      {
+        "name": "Solute carriers",
+        "level": "red",
+        "children": [
+          {
+            "name": "Sodium/calcium exchanger 1 (P32418)"
+          },
+          {
+            "name": "Sodium/hydrogen exchanger 1 (P19634)"
+          },
+          {
+            "name": "Mitochondrial sodium/calcium exchanger protein (Q6J4K2) (mito)",
+            "level": "red"
+          },
+        ],
+      },
+
+
+
+
+
+
+      //PDZ domain containing----------------------------------   
+
+
+      {
+        "name": "PDZ domain containing",
+        "children": [
+          {
+            "name": "syntrophin alpha 1 (Q13424)",
+
+          },
+          {
+            "name": "syntrophin beta 2 (Q13425)",
+
+          },
+        ],
+      },
+
+      //Gap junction Proteins----------------------------------   
+
+
+      {
+        "name": "Gap junction Proteins",
+        "children": [{
+            "name": "gap junction protein alpha 1 (P17302)",
+
+          },
+          {
+            "name": "gap junction protein alpha 4 (P35212)",
+
+          },
+
+        ],
+      },
+
+
+      //Cardiac phospholamban----------------------------------   
+
+
+      {
+        "name": "Cardiac phospholamban (Q5R352)",
+
+      },
+      {
+        "name": "Cardiac phospholamban (P26678)",
+
+      },
+
+
+
+      //Triadin----------------------------------   
+
+
+      {
+        "name": "Triadin (Q13061)",
+
+      },
+
+
+      //Serine/threonine-protein kinase WNK3----------------------------------   
+
+
+      {
+        "name": "Serine/threonine-protein kinase WNK3 (Q9BYP7)",
+
+      },
+
+
+      //Receptor ligands----------------------------------   
+
+
+      {
+        "name": "Receptor ligands",
+        "children": [{
+            "name": "calmodulin 1 (P0DP23)",
+
+          },
+          {
+            "name": "calmodulin 2 (P0DP24)",
+
+          },
+          {
+            "name": "calmodulin 3 (P0DP25)",
+
+          },
+          {
+            "name": "amyloid beta precursor protein (P05067)",
+
+          },
+
+        ],
+      },
+
+      //Purinergic receptors P2X----------------------------------   
+
+
+      {
+        "name": "Purinergic receptors P2X",
+        "children": [{
+            "name": "purinergic receptor P2X 3 (P56373)",
+
+          },
+
+        ],
+      },
+
+      //Calmodulin dependent protein kinases----------------------------------   
+
+
+      {
+        "name": "Calmodulin dependent protein kinases",
+        "children": [{
+            "name": "calcium/calmodulin dependent protein kinase II delta(Q13557)",
+
+          },
+
+        ],
+      },
+
+
+      //Galanin receptors----------------------------------   
+
+
+      {
+        "name": "Galanin receptors",
+        "children": [{
+            "name": "Galanin receptor type 2 (O43603)",
+
+          },
+
+        ],
+      },
+
+
+      //Protein phosphatase catalytic subunits----------------------------------   
+
+
+      {
+        "name": "Protein phosphatase catalytic subunits",
+  
+        "children": [{
+          "name": "protein phosphatase 3 catalytic subunit alpha ",
+     
+          "children": [{
+            "name": "Serine/threonine-protein phosphatase 2B catalytic subunit alpha isoform (Q08209)",
+           
+          }]
+
+        }, ],
+      },
+
+      //Syntaxins----------------------------------    
+      {
+        "name": "Syntaxins",
+        "children": [{
+          "name": "syntaxin 1A (Q16623) ",
+        }, ],
+      },
+
+
+      //EF hand domain containing----------------------------------          
+
+      {
+        "name": "EF hand domain containing",
+        "level": "red",
+        "children": [{
+            "name": "sorcin (P30626)",
+
+          },
+          {
+            "name": "selenoprotein N (Q9NZV5)",
+
+          },
+          {
+            "name": "Calcineurin B homologous protein 1 (Q99653)",
+
+          },
+          {
+            "name": "calcium and integrin binding 1 (Q99828)",
+
+          },
+          {
+            "name": "EH domain containing 3 (Q9NZN3)",
+
+          },
+          {
+            "name": "mitochondrial calcium uptake 1 (Q9BPX6) (mito)",
+             "level": "red"
+
+          },
+          {
+            "name": "mitochondrial calcium uptake 2 (Q8IYU8) (mito)",
+            "level": "red"
+
+          }
+
+
+
+        ],
+      },
+
+
+
+
+      //SH2 domain containing---------------------------------   
+
+      {
+        "name": "SH2 domain containing",
+        "children": [{
+            "name": "Tyrosine-protein kinase Fyn (P06241)",
+
+          },
+
+        ],
+      },
+
+
+      //Phosphodiesterases---------------------------------   
+
+      {
+        "name": "Phosphodiesterases",
+        "children": [{
+            "name": "phosphodiesterase 4D (Q08499)",
+
+          },
+
+        ],
+      },
+
+      //Proprotein convertase subtilisin/kexin family---------------------------------   
+
+      //Troponin complex subunits---------------------------------   
+
+      {
+        "name": "Troponin complex subunits",
+        "children": [{
+            "name": "troponin I3 (P19429)",
+
+          },
+
+        ],
+      },
+
+
+      //Integrin beta subunits---------------------------------   
+
+      {
+        "name": "Integrin beta subunits",
+        "children": [{
+            "name": "integrin subunit beta 1 (P05556)",
+
+          },
+
+        ],
+      },
+
+
+      //Wnt family---------------------------------   
+
+      //Soluble glutathione S-transferases---------------------------------   
+
+      {
+        "name": "Soluble glutathione S-transferases",
+        "children": [{
+            "name": "glutathione S-transferase omega 1 (P78417)",
+
+          },
+
+        ],
+      },
+
+
+
+      //presenilin---------------------------------   
+
+      {
+        "name": "presenilin",
+        "children": [{
+            "name": "presenilin 1 (P49768)",
+
+          },
+
+        ],
+      },
+
+      //Phosphofurin acidic cluster sorting protein 2--------------------------------   
+
+      {
+        "name": "Phosphofurin acidic cluster sorting protein 2",
+        "children": [{
+            "name": "phosphofurin acidic cluster sorting protein 2 (Q86VP3)",
+
+          },
+
+        ],
+      },
+
+
+
+      //F-BAR domain containing-------------------------------   
+
+      {
+        "name": "F-BAR domain containing",
+        "children": [{
+            "name": "protein kinase C and casein kinase substrate in neurons 3 (Q9UKS6)",
+
+          },
+
+        ],
+      },
+
+      //N-BAR domain containing-------------------------------   
+
+      {
+        "name": "N-BAR domain containing",
+        "children": [{
+            "name": "bridging integrator 1 (O00499)",
+
+          },
+
+        ],
+      },
+
+
+      //Bridging integrator 1, isoform CRA_k-------------------------------   
+
+      {
+        "name": "Bridging integrator 1, isoform CRA_k (A0A024RAF1)",
+
+      },
+
+
+      //Serum paraoxonase/arylesterase 1-------------------------------   
+      
+      //histidine rich calcium binding protein-------------------------------   
+
+      {
+        "name": "histidine rich calcium binding protein",
+        "children": [{
+            "name": "Sarcoplasmic reticulum histidine-rich calcium-binding protein (P23327)",
+
+          },
+
+        ],
+      },
+
+
+      //Neuropeptides-------------------------------   
+
+      {
+        "name": "Neuropeptides",
+        "children": [{
+            "name": "natriuretic peptide A (P01160)",
+
+          },
+
+        ],
+      },
+
+      //BCL2 family-------------------------------   
+
+      {
+        "name": "BCL2 family",
+        "children": [{
+            "name": "BCL2 antagonist/killer 1 (Q16611)",
+
+          },
+
+        ],
+      },
+
+
+
+      //Formins-------------------------------   
+
+      {
+        "name": "Formins",
+        "children": [{
+            "name": "diaphanous related formin 1 (O60610)",
+
+          },
+
+        ],
+      },
+
+      //FKBP prolyl isomerases-------------------------------   
+
+      {
+        "name": "FKBP prolyl isomerases",
+        "children": [
+          {
+            "name": "FKBP prolyl isomerase 1B (P68106)",
+
+          },
+          {
+            "name": "FKBP prolyl isomerase 4 (Q02790)",
+
+          }
+        ]
+      },
+
+      //AGC family kinases-------------------------------   
+
+      {
+        "name": "AGC family kinases",
+        "children": [{
+            "name": "protein kinase cAMP-activated catalytic subunit alpha (P17612)",
+
+          },
+
+          {
+            "name": "protein kinase C alpha (P17252)",
+
+          }
+        ]
+      },
+
+
+      //14-3-3 phospho-serine/phospho-threonine binding proteins-------------------------------   
+
+      {
+        "name": "14-3-3 phospho-serine/phospho-threonine binding proteins",
+       
+        "children": [{
+          "name": "tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein epsilon (P62258)",
+         
+
+        }]
+      },
+
+
+      //MicroRNA protein coding host genes-------------------------------   
+
+
+      //Dystrophin-------------------------------   
+
+      {
+        "name": "Dystrophin (P11532)",
+
+      },
+
+      {
+        "name": "Dystrophin (A0A075B6G3)",
+
+      },
+
+      //aspartate beta-hydroxylase-------------------------------   
+
+      {
+        "name": "aspartate beta-hydroxylase (Q12797)",
+
+      },
+
+
+
+      //Caveolins-------------------------------   
+
+      {
+        "name": "Caveolins",
+        "children": [{
+            "name": "caveolin 1 (Q03135)",
+          },
+          {
+            "name": "caveolin 3 (P56539)",
+          },
+        ]
+      },
+
+
+      //Protein disulfide isomerases------------------------------   
+
+      {
+        "name": "Protein disulfide isomerases",
+        "children": [{
+          "name": "calsequestrin 2 (O14958)",
+        }, ]
+      },
+
+
+      //A-kinase anchoring proteins------------------------------   
+
+      {
+        "name": "A-kinase anchoring proteins",
+        "children": [{
+          "name": "A-kinase anchoring protein 6 (Q13023)",
+        }, ]
+      },
+
+      //Heat shock 70kDa proteins------------------------------   
+
+      {
+        "name": "Heat shock 70kDa proteins",
+        "children": [{
+          "name": "heat shock protein family A (Hsp70) member 5 (P11021)",
+        }, ]
+      },
+
+      //Annexins------------------------------   
+
+      {
+        "name": "Annexins",
+        "children": [{
+          "name": "annexin A7 (P20073)",
+        }, ]
+      },
+
+      //Neurexins-----------------------------   
+
+      //Junctophilins-----------------------------   
+
+      {
+        "name": "Junctophilins",
+        "children": [{
+            "name": "junctophilin 1 (Q9HDC5)",
+          },
+          {
+            "name": "junctophilin 2 (Q9BR39)",
+          }
+        ]
+      },
+
+      //Glutamate ionotropic receptor NMDA type subunits-----------------------------   
+
+      {
+        "name": "Glutamate ionotropic receptor NMDA type subunits",
+        "children": [{
+          "name": "glutamate ionotropic receptor NMDA type subunit 2C (Q14957)",
+        }]
+      },
+
+      //Dopamine receptors-----------------------------   
+
+      //Presenilin-2-----------------------------   
+
+      {
+        "name": "Presenilin-2 (P49810) (mito)",
+        "level":"red",
+      },
+
+
+      //Voltage dependent anion channels----------------------------   
+
+      {
+        "name": "Voltage dependent anion channels",
+        "level":"red",
+        "children": [{
+          "name": "voltage dependent anion channel 1 (P21796) (mito)",
+          "level": "red"
+        }]
+      },
+
+      //Ankyrin repeat domain containing---------------------------   
+
+      {
+        "name": "Ankyrin repeat domain containing",
+        "level":"red",
+        "children": [{
+          "name": "ankyrin 2 (Q01484) (mito)",
+          "level": "red"
+        }]
+      },
+      //mitochondrial calcium uniporter--------------------------   
+
+      {
+        "name": "mitochondrial calcium uniporter",
+        "level":"red",
+        "children": [{
+            "name": "mitochondrial calcium uniporter (Q8NE86) (mito)",
+            "level": "red"
+          },
+        ]
+      },
+
+      //ORAI calcium release-activated calcium modulators--------------------------   
+
+      {
+        "name": "ORAI calcium release-activated calcium modulators",
+       
+        "children": [{
+          "name": "Calcium release-activated calcium channel protein 1 (Q96D31)",
+          
+        }]
+      },
+
+
+
+      //serum/glucocorticoid regulated kinase 1-------------------------   
+
+      {
+        "name": "Serine/threonine-protein kinase Sgk1 (O00141) (mito)",
+        "level": "red"
+
+      },
+
+
+      //Sterile alpha motif domain containing--------------------------   
+
+      {
+        "name": "Sterile alpha motif domain containing",
+        "children": [{
+          "name": "stromal interaction molecule 1 (Q13586)",
+        }]
+      },
+
+
+      //M10 matrix metallopeptidases------------------------   
+
+      {
+        "name": "M10 matrix metallopeptidases",
+     
+        "children": [{
+          "name": "matrix metallopeptidase 9 (P14780) ",
+        }]
+      },
+
+      //Armadillo like helical domain containing------------------------   
+
+      {
+        "name": "Armadillo like helical domain containing",
+        "level":"red",
+        "children": [{
+          "name": "leucine rich repeat kinase 2 (Q5S007) (mito)",
+          "level": "red"
+        }]
+      },
+
+      //----------------------------------   
+
+    ]
+  }
 }
+
 
   //]]></script>
 
