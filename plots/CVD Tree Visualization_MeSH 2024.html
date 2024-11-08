@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tree Visualization</title>
+    <style>
+        .node circle {
+            fill: steelblue;
+            stroke: steelblue;
+            stroke-width: 1.5px;
+        }
+        .node {
+            font: 11px sans-serif;
+            font-weight: bold;
+        }
+        .link_continuous {
+            fill: none;
+            stroke: #bbb;
+            stroke-width: 1.5px;
+        }
+    </style>
+    <script src="https://d3js.org/d3.v3.min.js"></script>
+</head>
+<body>
+    <script>
+        var width = 800,
+            height = 3000;
+
+        var cluster = d3.layout.cluster()
+            .size([height, width - 400]);
+
+        var diagonal = d3.svg.diagonal()
+            .projection(function(d) { return [d.y, d.x]; });
+
+        var svg = d3.select("body").append("svg")
+            .attr("width", width)
+            .attr("height", height)
+            .append("g")
+            .attr("transform", "translate(80,0)");
+
+        var root = getData(),
+            nodes = cluster.nodes(root),
+            links = cluster.links(nodes);
+
+        var link = svg.selectAll(".link")
+            .data(links)
+            .enter().append("path")
+            .attr("class", "link_continuous")
+            .attr("d", diagonal);
+
+        var node = svg.selectAll(".node")
+            .data(nodes)
+            .enter().append("g")
+            .attr("class", "node")
+            .attr("transform", function(d) { return "translate(" + d.y + "," + d.x + ")"; });
+
+        node.append("circle")
+            .attr("r", 4.5);
+
+        node.append("text")
+            .attr("dx", function(d) { return d.children ? -8 : 8; })
+            .attr("dy", 3)
+            .style("text-anchor", function(d) { return d.children ? "end" : "start"; })
+            .text(function(d) { return d.name; });
+
+            function getData() {
+    return {
+        "name": "CVD",
+        	"children":[{
+          "name":"Cardiomyopathies and Heart Failure (CM)",
+          "children":[{"name":"Arrhythmogenic Right Ventricular Dysplasia"},
+          {"name": "Cardiomyopathy, Alcoholic"}, 
+          {"name": "Cardiomyopathy, Dilated"},
+          {"name":"Cardiomyopathy, Hypertrophic"},
+          {"name":"Apical Hypertrophic Cardiomyopathy"},
+          {"name":"cardiomyopathy, hypertrophic, familial"},
+          {"name": "Cardiomyopathy, Restrictive"},
+          {"name": "Chagas Cardiomyopathy"},
+          {"name":"Diabetic Cardiomyopathies"},
+          {"name": "Endocardial Fibroelastosis"},
+          {"name": "Isolated Noncompaction of the Ventricular Myocardium"},
+          {"name": "Endomyocardial Fibrosis"},
+          {"name":"Glycogen Storage Disease Type IIb"},
+          {"name": "Kearns-Sayre Syndrome"},
+          {"name": "Myocardial Reperfusion Injury"},
+          {"name":"Myocarditis"},
+          {"name": "Sarcoglycanopathies "},
+          {"name": "Takotsubo Cardiomyopathy"},
+          {"name":"heart failure"},
+          {"name":"cardio-renal syndrome"},
+          {"name":"dyspnea, paroxysmal"},
+          {"name":"edema, cardiac"},
+          {"name":"heart failure, diastolic"},
+          {"name":"heart failure, systolic"},
+          ]
+          },
+          {
+          "name":"Arrhythmias, Cardiac (ARR)",
+          "children":[{"name":"arrhythmia, sinus"},
+          {"name":"sick sinus syndrome"},
+          {"name":"sinus arrest, cardiac"},
+          {"name":"atrial fibrillation"},
+          {"name":"atrial flutter"},
+          {"name":"bradycardia"},
+          {"name":"brugada syndrome"},
+          {"name":"cardiac complexes, premature"},
+          {"name":"atrial premature complexes"},
+          {"name":"ventricular premature complexes"},
+          {"name":"commotio cordis"},
+          {"name":"heart block"},
+          {"name":"adams-stokes syndrome"},
+          {"name":"atrioventricular block"},
+          {"name":"bundle-branch block"},
+          {"name":"interatrial block"},
+          {"name":"sick sinus syndrome"},
+          {"name":"sinoatrial block"},
+          {"name":"long qt syndrome"},
+          {"name":"andersen syndrome"},
+          {"name":"jervell-lange nielsen syndrome"},
+          {"name":"romano-ward syndrome"},
+          {"name":"parasystole"},
+          {"name":"pre-excitation syndromes"},
+          {"name":"lown-ganong-levine syndrome"},
+          {"name":"pre-excitation, mahaim-type"},
+          {"name":"wolff-parkinson-white syndrome"},
+          {"name":"tachycardia"},
+          {"name":"tachycardia, paroxysmal"},
+          {"name":"tachycardia, reciprocating"},
+          {"name":"tachycardia, atrioventricular nodal reentry"},
+          {"name":"tachycardia, sinoatrial nodal reentry"},
+          {"name":"tachycardia, supraventricular"},
+          {"name":"tachycardia, ectopic atrial"},
+          {"name":"tachycardia, ectopic junctional"},
+          {"name":"tachycardia, sinus"},
+          {"name":"tachycardia, ventricular"},
+          {"name":"accelerated idioventricular rhythm"},
+          {"name":"torsades de pointes"},
+          {"name":"ventricular fibrillation"},
+          {"name":"ventricular flutter"}
+          
+          ]
+          },
+          {
+          "name":"Heart Defects, Congenital (CHD)",
+          "children":[{"name":"22q11 deletion syndrome"},
+          {"name":"digeorge syndrome"},
+          {"name":"aortic coarctation"},
+          {"name":"aortico-ventricular tunnel"},
+          {"name":"arrhythmogenic right ventricular dysplasia"},
+          {"name":"barth syndrome"},
+          {"name":"bicuspid aortic valve disease"},
+          {"name":"cor triatriatum"},
+          {"name":"coronary vessel anomalies"},
+          {"name":"anomalous left coronary artery"},
+          {"name":"bland white garland syndrome"},
+          {"name":"myocardial bridging"},
+          {"name":"crisscross heart"},
+          {"name":"dextrocardia"},
+          {"name":"kartagener syndrome"},
+          {"name":"ductus arteriosus, patent"},
+          {"name":"ebstein anomaly"},
+          {"name":"eisenmenger complex"},
+          {"name":"heart septal defects"},
+          {"name":"aortopulmonary septal defect"},
+          {"name":"truncus arteriosus, persistent"},
+          {"name":"endocardial cushion defects"},
+          {"name":"heart septal defects, atrial"},
+          {"name":"foramen ovale, patent"},
+          {"name":"lutembacher syndrome"},
+          {"name":"heart septal defects, ventricular"},
+          {"name":"double outlet right ventricle"},
+          {"name":"heterotaxy syndrome"},
+          {"name":"hypoplastic left heart syndrome"},
+          {"name":"isolated noncompaction of the ventricular myocardium"},
+          {"name":"leopard syndrome"},
+          {"name":"levocardia"},
+          {"name":"marfan syndrome"},
+          {"name":"noonan syndrome"},
+          {"name":"quadricuspid aortic valve"},
+          {"name":"tetralogy of fallot"},
+          {"name":"transposition of great vessels"},
+          {"name":"congenitally corrected transposition of the great arteries"},
+          {"name":"double outlet right ventricle"},
+          {"name":"tricuspid atresia"},
+          {"name":"trilogy of fallot"},
+          {"name":"trisomy 13 syndrome"},
+          {"name":"trisomy 18 syndrome"},
+          {"name":"turner syndrome"},
+          {"name":"univentricular heart"}
+          
+          ]
+          },
+          {
+          "name":"Heart Valve Diseases (VD)",
+          "children":[{"name":"aortic valve disease"},
+          {"name":"aortic valve insufficiency"},
+          {"name":"aortic valve prolapse"},
+          {"name":"aortic valve stenosis"},
+          {"name":"aortic stenosis, subvalvular"},
+          {"name":"cardiomyopathy, hypertrophic"},
+          {"name":"cardiomyopathy, hypertrophic, familial"},
+          {"name":"discrete subaortic stenosis"},
+          {"name":"aortic stenosis, supravalvular"},
+          {"name":"williams syndrome"},
+          {"name":"bicuspid aortic valve disease"},
+          {"name":"quadricuspid aortic valve"},
+          {"name":"heart valve prolapse"},
+          {"name":"aortic valve prolapse"},
+          {"name":"mitral valve prolapse"},
+          {"name":"tricuspid valve prolapse"},
+          {"name":"mitral valve insufficiency"},
+          {"name":"mitral valve stenosis"},
+          {"name":"pulmonary atresia"},
+          {"name":"pulmonary valve insufficiency"},
+          {"name":"pulmonary valve stenosis"},
+          {"name":"leopard syndrome"},
+          {"name":"pulmonary subvalvular stenosis"},
+          {"name":"tricuspid atresia"},
+          {"name":"tricuspid valve insufficiency"},
+          {"name":"tricuspid valve stenosis"}
+
+          ]
+          },
+          {
+          "name":"Myocardial Ischemia(IHD)",
+          "children":[{"name":"acute coronary syndrome"},
+          {"name":"angina pectoris"},
+          {"name":"angina, unstable"},
+          {"name":"angina pectoris, variant"},
+          {"name":"angina, stable"},
+          {"name":"microvascular angina"},
+          {"name":"coronary disease"},
+          {"name":"coronary aneurysm"},
+          {"name":"coronary artery disease"},
+          {"name":"coronary occlusion"},
+          {"name":"coronary stenosis"},
+          {"name":"coronary restenosis"},
+          {"name":"coronary thrombosis"},
+          {"name":"coronary vasospasm"},
+          {"name":"coronary-subclavian steal syndrome"},
+          {"name":"kounis syndrome"},
+          {"name":"myocardial infarction"},
+          {"name":"anterior wall myocardial infarction"},
+          {"name":"inferior wall myocardial infarction"},
+          {"name":"non-st elevated myocardial infarction"},
+          {"name":"shock, cardiogenic"},
+          {"name":"st elevation myocardial infarction"},
+          {"name":"myocardial reperfusion injury"},
+          
+          ]
+          },
+          {
+          "name":"Cardiac Conduction System (CCS)",
+          "children":[{"name":"brugada syndrome"},
+          {"name":"cardiac complexes, premature"},
+          {"name":"atrial premature complexes"},
+          {"name":"ventricular premature complexes"},
+          {"name":"heart block"},
+          {"name":"adams-stokes syndrome"},
+          {"name":"atrioventricular block"},
+          {"name":"bundle-branch block"},
+          {"name":"interatrial block"},
+          {"name":"sick sinus syndrome"},
+          {"name":"sinoatrial block"},
+          {"name":"long qt syndrome"},
+          {"name":"andersen syndrome"},
+          {"name":"jervell-lange nielsen syndrome"},
+          {"name":"romano-ward syndrome"},
+          {"name":"pre-excitation syndromes"},
+          {"name":"lown-ganong-levine syndrome"},
+          {"name":"pre-excitation, mahaim-type"},
+          {"name":"wolff-parkinson-white syndrome"},
+          {"name":"tachycardia"},
+          {"name":"tachycardia, paroxysmal"},
+          {"name":"tachycardia, reciprocating"},
+          {"name":"tachycardia, atrioventricular nodal reentry"},
+          {"name":"tachycardia, sinoatrial nodal reentry"},
+          {"name":"tachycardia, supraventricular"},
+          {"name":"tachycardia, ectopic atrial"},
+          {"name":"tachycardia, ectopic junctional"},
+          {"name":"tachycardia, sinus"},
+          {"name":"tachycardia, ventricular"},
+          {"name":"accelerated idioventricular rhythm"},
+          {"name":"torsades de pointes"},
+          
+          ]
+          },
+          {
+          "name":"Ventricular Outflow Obstruction (VOO)",
+          "children":[{"name":"aortic valve stenosis"},
+          {"name":"aortic stenosis, subvalvular"},
+          {"name":"discrete subaortic stenosis"},
+          {"name":"aortic stenosis, supravalvular"},
+          {"name":"pulmonary valve stenosis"},
+          {"name":"pulmonary subvalvular stenosis"},
+          {"name":"Ventricular Outflow Obstruction, Left"},
+          {"name":"Ventricular Outflow Obstruction, Right"},
+          
+          ]
+          },
+          {
+          "name":"Other Heart Diseases (OHD)",
+          "children":[{"name":"cardiomegaly"},
+          {"name":"cardiomyopathy, dilated"},
+          {"name":"hypertrophy, left ventricular"},
+          {"name":"Apical Hypertrophic Cardiomyopathy"},
+          {"name":"hypertrophy, right ventricular"},
+          {"name":"endocarditis"},
+          {"name":"endocarditis, bacterial"},
+          {"name":"endocarditis, subacute bacterial"},
+          {"name":"endocarditis, non-infective"},
+          {"name":"heart arrest"},
+          {"name":"death, sudden, cardiac"},
+          {"name":"karoshi death"},
+          {"name":"out-of-hospital cardiac arrest"},
+          {"name":"heart rupture"},
+          {"name":"heart rupture, post-infarction"},
+          {"name":"ventricular septal rupture"},
+          {"name":"ventricular dysfunction"},
+          {"name":"ventricular dysfunction, left"},
+          {"name":"takotsubo cardiomyopathy"},
+          {"name":"ventricular dysfunction, right"},
+          {"name":"heart neoplasms"},
+          {"name":"cardiac papillary fibroelastoma"},
+          {"name":"carney complex"},
+          {"name":"pericarditis"},
+          {"name":"pericarditis, constrictive"},
+          {"name":"pericarditis, tuberculous"}
+          
+          ]
+          
+          },
+          ]
+            
+    };
+}
+    </script>
+</body>
+</html>
