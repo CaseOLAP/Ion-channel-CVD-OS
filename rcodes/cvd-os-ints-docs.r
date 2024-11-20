@@ -16,7 +16,6 @@ par(cex = 0.90, mar = c(0, 0, 0, 0))
 # Define the "data" for the digram is "matrix" from above
 data <- read.csv(file = 'cvd-os-ints-docs.csv',row.names = 1, header= TRUE)
 
-data
 
 # Reshape data to long format 
 data_long <- data %>%
